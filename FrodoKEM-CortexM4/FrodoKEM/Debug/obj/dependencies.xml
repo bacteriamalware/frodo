@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\FrodoKEM\semihosting /I..\..\..\workspace\FrodoKEM /I..\..\..\workspace\FrodoKEM\cmsis_lib /I..\..\..\workspace /I..\..\..\workspace\FrodoKEM\cmsis_lib\include /I..\..\..\workspace\FrodoKEM\Crypto\sha3_asm /I..\..\..\workspace\FrodoKEM\Crypto\random /I..\..\..\workspace\FrodoKEM\Crypto /I..\..\..\workspace\FrodoKEM\cmsis /I..\..\..\workspace\FrodoKEM\cyclecounter /I..\..\..\workspace\FrodoKEM\cmsis_boot">
+      <source file="..\..\..\Crypto\frodo_macrify.h" lastModified="164882fc945">
+      </source>
+      <source file="..\..\..\Crypto\frodo_macrify.c" lastModified="1648844e4f4">
+         <include file="..\..\..\Crypto\sha3_asm\fips202.h"/>
+         <include file="..\..\..\Crypto\api_frodo.h"/>
+         <include file="..\..\..\Crypto\frodo_macrify.h"/>
+      </source>
+      <source file="..\..\..\Crypto\noise.c" lastModified="16488330a82">
+         <include file="..\..\..\Crypto\sha3_asm\fips202.h"/>
+         <include file="..\..\..\Crypto\api_frodo.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15d12a454e6">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15d12a454e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="15d37538637">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\Crypto\aes_asm.s" lastModified="15b9e8d8b00">
+      </source>
+      <source file="..\..\..\Crypto\api_frodo.h" lastModified="16488457618">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h" lastModified="15d37538637">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15d12a41126">
+      </source>
+      <source file="..\..\..\Crypto\kem.c" lastModified="16488341fe6">
+         <include file="..\..\..\Crypto\sha3_asm\fips202.h"/>
+         <include file="..\..\..\Crypto\random\random.h"/>
+         <include file="..\..\..\Crypto\api_frodo.h"/>
+         <include file="..\..\..\Crypto\frodo_macrify.h"/>
+         <include file="..\..\..\cyclecounter\cyclecounter.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="15d12a41126">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="15d32f3e9d5">
+      </source>
+      <source file="..\..\..\cyclecounter\cyclecounter.h" lastModified="15d79b36418">
+      </source>
+      <source file="..\..\..\Crypto\sha3_asm\keccakf1600.h" lastModified="162a4040a58">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="15d12d182bf">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cyclecounter\cyclecounter.c" lastModified="15d79b41d41">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cyclecounter\cyclecounter.h"/>
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="16259e61baf">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15d12a468d1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="15d32f456c0">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="15d12a49277">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="164884f3281">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cyclecounter\cyclecounter.h"/>
+         <include file="..\..\..\Crypto\random\random.h"/>
+         <include file="..\..\..\Crypto\api_frodo.h"/>
+      </source>
+      <source file="..\..\..\Crypto\mul_asm.s" lastModified="1648831bade">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15d12a41126">
+      </source>
+      <source file="..\..\..\Crypto\sha3_asm\keccakf1600.S" lastModified="162a4040670">
+      </source>
+      <source file="..\..\..\Crypto\random\random.h" lastModified="1648846efb0">
+      </source>
+      <source file="..\..\..\Crypto\util.c" lastModified="162b3c5634c">
+         <include file="..\..\..\Crypto\frodo_macrify.h"/>
+      </source>
+      <source file="..\..\..\Crypto\random\random.c" lastModified="16488475805">
+         <include file="..\..\..\Crypto\random\random.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+      </source>
+      <source file="..\..\..\Crypto\sha3_asm\fips202.h" lastModified="162a4040a58">
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="15d32f3e9d5">
+      </source>
+      <source file="..\..\..\Crypto\sha3_asm\fips202.c" lastModified="162a4040e40">
+         <include file="..\..\..\Crypto\sha3_asm\fips202.h"/>
+         <include file="..\..\..\Crypto\sha3_asm\keccakf1600.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.c" lastModified="15d32f3f1a4">
+         <include file="..\..\..\semihosting\semihosting.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="15d12a40d3e">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15d12a43c87">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16295692cb0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15d12d1d32d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\FrodoKEM\semihosting /I..\..\..\workspace\FrodoKEM /I..\..\..\workspace\FrodoKEM\cmsis_lib /I..\..\..\workspace /I..\..\..\workspace\FrodoKEM\cmsis_lib\include /I..\..\..\workspace\FrodoKEM\Crypto\sha3 /I..\..\..\workspace\FrodoKEM\Crypto\random /I..\..\..\workspace\FrodoKEM\Crypto /I..\..\..\workspace\FrodoKEM\cmsis /I..\..\..\workspace\FrodoKEM\cyclecounter /I..\..\..\workspace\FrodoKEM\cmsis_boot">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15d12a454e6">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15d12a454e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="15d37538637">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h" lastModified="15d37538637">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\BlinkLED\aes_assembly.s" lastModified="15b9e8d8b00">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="15d32f3e9d5">
+      </source>
+      <source file="..\..\..\cyclecounter\cyclecounter.c" lastModified="15d79b41d41">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cyclecounter\cyclecounter.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15d12a468d1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="15d32f3e9d5">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15d12a43c87">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16295692cb0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15d12d1d32d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\FrodoKEM\semihosting /I..\..\..\workspace\FrodoKEM /I..\..\..\workspace\FrodoKEM\cmsis_lib /I..\..\..\workspace /I..\..\..\workspace\FrodoKEM\cmsis_lib\include /I..\..\..\workspace\FrodoKEM\Crypto\random /I..\..\..\workspace\FrodoKEM\Crypto\sha3_fast /I..\..\..\workspace\FrodoKEM\Crypto /I..\..\..\workspace\FrodoKEM\cmsis /I..\..\..\workspace\FrodoKEM\cyclecounter /I..\..\..\workspace\FrodoKEM\cmsis_boot">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15d12a454e6">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="15d12a454e6">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="15d37538637">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h" lastModified="15d37538637">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\BlinkLED\aes_assembly.s" lastModified="15b9e8d8b00">
+      </source>
+      <source file="..\..\..\semihosting\sh_cmd.s" lastModified="15d32f3e9d5">
+      </source>
+      <source file="..\..\..\cyclecounter\cyclecounter.c" lastModified="15d79b41d41">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cyclecounter\cyclecounter.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="15d12a468d1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\semihosting\semihosting.h" lastModified="15d32f3e9d5">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="15d12a43c87">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16295692cb0">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15d12d1d32d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

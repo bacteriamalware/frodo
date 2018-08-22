@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\FrodoKEM\semihosting -I..\..\..\workspace\FrodoKEM -I..\..\..\workspace\FrodoKEM\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\FrodoKEM\cmsis_lib\include -I..\..\..\workspace\FrodoKEM\Crypto\random -I..\..\..\workspace\FrodoKEM\Crypto\sha3_fast -I..\..\..\workspace\FrodoKEM\Crypto -I..\..\..\workspace\FrodoKEM\cmsis -I..\..\..\workspace\FrodoKEM\cyclecounter -I..\..\..\workspace\FrodoKEM\cmsis_boot">
+      <target file="noise.o" lastModified="162b3c98644">
+         <source file="..\..\..\Crypto\noise.c" lastModified="1629a357180"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="162b3b67696">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="16295692cb0"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="162b3b67bb4">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15d12d1d32d"/>
+      </target>
+      <target file="printf.o" lastModified="162b3b679f0">
+         <source file="..\..\..\stdio\printf.c" lastModified="16259e613df"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="162b3b67d4a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="15d37538637"/>
+      </target>
+      <target file="random.o" lastModified="162b3ea93ec">
+         <source file="..\..\..\Crypto\random\random.c" lastModified="162b3cb80fb"/>
+      </target>
+      <target file="keccakf1600.o" lastModified="162b3b67c6f">
+         <source file="..\..\..\Crypto\sha3_fast\keccakf1600.S" lastModified="162a4040670"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="162b3b67879">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15d12a454e6"/>
+      </target>
+      <target file="util.o" lastModified="162b3c983b5">
+         <source file="..\..\..\Crypto\util.c" lastModified="162b3c55f64"/>
+      </target>
+      <target file="kem.o" lastModified="162b3c98319">
+         <source file="..\..\..\Crypto\kem.c" lastModified="162aa44e5ee"/>
+      </target>
+      <target file="cyclecounter.o" lastModified="162b3b678d7">
+         <source file="..\..\..\cyclecounter\cyclecounter.c" lastModified="15d79b41d41"/>
+      </target>
+      <target file="sh_cmd.o" lastModified="162b3b67b28">
+         <source file="..\..\..\semihosting\sh_cmd.s" lastModified="15d32f3e9d5"/>
+      </target>
+      <target file="aes_assembly.o" lastModified="162b3b67c31">
+         <source file="..\..\..\..\BlinkLED\aes_assembly.s" lastModified="15b9e8d8b00"/>
+      </target>
+      <target file="syscalls.o" lastModified="162b3b67c12">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15d32f44720"/>
+      </target>
+      <target file="fips202.o" lastModified="162b3b67638">
+         <source file="..\..\..\Crypto\sha3_fast\fips202.c" lastModified="162a4040670"/>
+      </target>
+      <target file="semihosting.o" lastModified="162b3b67426">
+         <source file="..\..\..\semihosting\semihosting.c" lastModified="15d32f3e9d4"/>
+      </target>
+      <target file="frodo_macrify.o" lastModified="162b3f026d8">
+         <source file="..\..\..\Crypto\frodo_macrify.c" lastModified="162b3f01c1f"/>
+      </target>
+      <target file="asmLib.o" lastModified="162b3b67b47">
+         <source file="..\..\..\asmLib.s" lastModified="1626c3b681c"/>
+      </target>
+      <target file="main.o" lastModified="162b3c98451">
+         <source file="..\..\..\main.c" lastModified="1629a1c65f4"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\FrodoKEM\semihosting -I..\..\..\workspace\FrodoKEM -I..\..\..\workspace\FrodoKEM\cmsis_lib -I..\..\..\workspace -I..\..\..\workspace\FrodoKEM\cmsis_lib\include -I..\..\..\workspace\FrodoKEM\Crypto\sha3 -I..\..\..\workspace\FrodoKEM\Crypto\random -I..\..\..\workspace\FrodoKEM\Crypto -I..\..\..\workspace\FrodoKEM\cmsis -I..\..\..\workspace\FrodoKEM\cyclecounter -I..\..\..\workspace\FrodoKEM\cmsis_boot">
+      <target file="frodo976.o" lastModified="1624d6afb96">
+         <source file="..\..\..\Crypto\frodo976.c" lastModified="161d30ee440"/>
+      </target>
+      <target file="frodo640.o" lastModified="1624da5edde">
+         <source file="..\..\..\Crypto\frodo640.c" lastModified="161d30ee440"/>
+      </target>
+   </processor>
+</history>

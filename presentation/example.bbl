@@ -1,0 +1,42 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HMO{\etalchar{+}}16}
+
+\bibitem[ABD{\etalchar{+}}]{frodo-nist}
+Erdem Alkim, Joppe~W. Bos, L\'{e}o Ducas, Patrick Longa, Ilya Mironov, Michael
+  Naehrig, Valeria Nikolaenko, Chris Peikert, Ananth Raghunathan, Douglas
+  Stebila, Karen Easterbrook, and Brian LaMacchia.
+\newblock {FrodoKEM} {Learning With Errors} key encapsulation.
+\newblock \url{https://frodokem.org/files/FrodoKEM-specification-20171130.pdf}.
+\newblock Accessed: 2018-04-13.
+
+\bibitem[AJS16]{alkim2016newhope}
+Erdem Alkim, Philipp Jakubeit, and Peter Schwabe.
+\newblock {NewHope} on {ARM cortex-M}.
+\newblock In {\em International Conference on Security, Privacy, and Applied
+  Cryptography Engineering}, pages 332--349. Springer, 2016.
+
+\bibitem[DHH{\etalchar{+}}15]{DBLP:journals/dcc/DullHHHPSS15}
+Michael D{\"{u}}ll, Bj{\"{o}}rn Haase, Gesine Hinterw{\"{a}}lder, Michael
+  Hutter, Christof Paar, Ana~Helena S{\'{a}}nchez, and Peter Schwabe.
+\newblock High-speed curve25519 on 8-bit, 16-bit, and 32-bit microcontrollers.
+\newblock {\em Des. Codes Cryptography}, 77(2-3):493--514, 2015.
+
+\bibitem[HMO{\etalchar{+}}16]{DBLP:conf/dac/HoweMORGB16}
+James Howe, Ciara Moore, M{\'{a}}ire O'Neill, Francesco Regazzoni, Tim
+  G{\"{u}}neysu, and K.~Beeden.
+\newblock Lattice-based encryption over standard lattices in hardware.
+\newblock In {\em Proceedings of the 53rd Annual Design Automation Conference,
+  {DAC} 2016, Austin, TX, USA, June 5-9, 2016}, pages 162:1--162:6. {ACM},
+  2016.
+
+\bibitem[OG17]{oder2017implementing}
+Tobias Oder and Tim G{\"u}neysu.
+\newblock Implementing the {NewHope}-simple key exchange on low-cost {FPGAs}.
+\newblock {\em Progress in Cryptology--LATINCRYPT}, 2017, 2017.
+
+\bibitem[pqm]{pqm4}
+{pqm4} - post-quantum crypto library for the {ARM Cortex-M4}.
+\newblock \url{https://github.com/mupq/pqm4}.
+\newblock Accessed: 2018-04-12.
+
+\end{thebibliography}

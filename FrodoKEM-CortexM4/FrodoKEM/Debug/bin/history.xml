@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=FrodoKEM.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\FrodoKEM -TC:\CooCox\CoIDE\configuration\ProgramData\FrodoKEM/arm-gcc-link.ld -g">
+      <target file="FrodoKEM.elf" lastModified="164884f7671">
+         <source file="..\obj\semihosting.o" lastModified="1648833db75"/>
+         <source file="..\obj\kem.o" lastModified="164884da95a"/>
+         <source file="..\obj\util.o" lastModified="1648833dc30"/>
+         <source file="..\obj\fips202.o" lastModified="1648833dd3a"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1648833dd88"/>
+         <source file="..\obj\mul_asm.o" lastModified="1648833dda7"/>
+         <source file="..\obj\main.o" lastModified="164884f743f"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1648833dedf"/>
+         <source file="..\obj\cyclecounter.o" lastModified="1648833df4c"/>
+         <source file="..\obj\aes_asm.o" lastModified="1648833df6b"/>
+         <source file="..\obj\printf.o" lastModified="1648833e074"/>
+         <source file="..\obj\frodo_macrify.o" lastModified="16488458277"/>
+         <source file="..\obj\sh_cmd.o" lastModified="1648833e0c2"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1648833e13f"/>
+         <source file="..\obj\syscalls.o" lastModified="1648833e1ac"/>
+         <source file="..\obj\keccakf1600.o" lastModified="1648833e1eb"/>
+         <source file="..\obj\random.o" lastModified="164884daaa2"/>
+         <source file="..\obj\stm32f4xx_rng.o" lastModified="1648833e2c5"/>
+         <source file="..\obj\noise.o" lastModified="164884582f3"/>
+      </target>
+   </processor>
+</history>

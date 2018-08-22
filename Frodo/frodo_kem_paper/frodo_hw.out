@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Related Work}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Contribution}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Preliminaries}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{Notation}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{The Learning with Errors problem}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{The Frodo Key Encapsulation Mechanism scheme}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Parameters}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.5}{Error Sampling}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.6}{Structured Lattices}{section.2}% 10
+\BOOKMARK [1][-]{section.3}{FPGA Design}{}% 11
+\BOOKMARK [2][-]{subsection.3.1}{Overview}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.2}{LWE Multiplication Core}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Additional Modules}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Microcontroller Design}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Target Platform}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{High-level Memory Optimization}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Low-level Assembly Optimization}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Protection Against Timing Side Channels}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Results and Comparison}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{FPGA Results}{section.5}% 21
+\BOOKMARK [2][-]{subsection.5.2}{Microcontroller Results}{section.5}% 22
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 23

@@ -1,0 +1,299 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{HMO{\etalchar{+}}16}
+
+\bibitem[ABB{\etalchar{+}}]{initial}
+Daniel Augot, Lejla Batina, Daniel~J Bernstein, Joppe Bos, Johannes Buchmann,
+  Wouter Castryck, Orr Dunkelman, Tim G{\"u}neysu, Shay Gueron, Andreas
+  H{\"u}lsing, et~al.
+\newblock Initial recommendations of long-term secure post-quantum systems
+  (2015).
+\newblock \url{https://pqcrypto.eu.org/docs/initial-recommendations.pdf}.
+
+\bibitem[ABD{\etalchar{+}}]{frodo-nist}
+Erdem Alkim, Joppe~W. Bos, L\'{e}o Ducas, Patrick Longa, Ilya Mironov, Michael
+  Naehrig, Valeria Nikolaenko, Chris Peikert, Ananth Raghunathan, Douglas
+  Stebila, Karen Easterbrook, and Brian LaMacchia.
+\newblock {FrodoKEM} {Learning With Errors} key encapsulation.
+\newblock \url{https://frodokem.org/files/FrodoKEM-specification-20171130.pdf}.
+\newblock Accessed: 2018-04-13.
+
+\bibitem[ADPS16]{DBLP:conf/uss/AlkimDPS16}
+Erdem Alkim, L{\'{e}}o Ducas, Thomas P{\"{o}}ppelmann, and Peter Schwabe.
+\newblock Post-quantum key exchange - {A} new hope.
+\newblock In Thorsten Holz and Stefan Savage, editors, {\em 25th {USENIX}
+  Security Symposium, {USENIX} Security 16, Austin, TX, USA, August 10-12,
+  2016.}, pages 327--343. {USENIX} Association, 2016.
+
+\bibitem[AJS16]{alkim2016newhope}
+Erdem Alkim, Philipp Jakubeit, and Peter Schwabe.
+\newblock {NewHope} on {ARM cortex-M}.
+\newblock In {\em International Conference on Security, Privacy, and Applied
+  Cryptography Engineering}, pages 332--349. Springer, 2016.
+
+\bibitem[BCD{\etalchar{+}}16]{DBLP:conf/ccs/BosCDMNNRS16}
+Joppe~W. Bos, Craig Costello, L{\'{e}}o Ducas, Ilya Mironov, Michael Naehrig,
+  Valeria Nikolaenko, Ananth Raghunathan, and Douglas Stebila.
+\newblock Frodo: Take off the ring! practical, quantum-secure key exchange from
+  {LWE}.
+\newblock In Edgar~R. Weippl, Stefan Katzenbeisser, Christopher Kruegel,
+  Andrew~C. Myers, and Shai Halevi, editors, {\em Proceedings of the 2016 {ACM}
+  {SIGSAC} Conference on Computer and Communications Security, Vienna, Austria,
+  October 24-28, 2016}, pages 1006--1018. {ACM}, 2016.
+
+\bibitem[BDP{\etalchar{+}}a]{bertoni2016keccak}
+Guido Bertoni, Joan Daemen, Micha{\"e}l Peeters, GV~Assche, and RV~Keer.
+\newblock The keccak code package.
+\newblock \url{https://github.com/gvanas/KeccakCodePackage}.
+\newblock Accessed: 2018-04-12.
+
+\bibitem[BDP{\etalchar{+}}b]{SHA3}
+Guido Bertoni, Joan Daemen, Michaël Peeters, Gilles~Van Assche, and Ronny~Van
+  Keer.
+\newblock Is {SHA-3} slow?
+\newblock \url{https://keccak.team/2017/is_sha3_slow.html}.
+\newblock Accessed: 2018-04-10.
+
+\bibitem[Boy13]{DBLP:conf/tcc/Boyen13}
+Xavier Boyen.
+\newblock Attribute-based functional encryption on lattices.
+\newblock In Amit Sahai, editor, {\em Theory of Cryptography - 10th Theory of
+  Cryptography Conference, {TCC} 2013, Tokyo, Japan, March 3-6, 2013.
+  Proceedings}, volume 7785 of {\em Lecture Notes in Computer Science}, pages
+  122--142. Springer, 2013.
+
+\bibitem[BSW11]{DBLP:conf/tcc/BonehSW11}
+Dan Boneh, Amit Sahai, and Brent Waters.
+\newblock Functional encryption: Definitions and challenges.
+\newblock In Yuval Ishai, editor, {\em Theory of Cryptography - 8th Theory of
+  Cryptography Conference, {TCC} 2011, Providence, RI, USA, March 28-30, 2011.
+  Proceedings}, volume 6597 of {\em Lecture Notes in Computer Science}, pages
+  253--273. Springer, 2011.
+
+\bibitem[CCJ{\etalchar{+}}16]{chen2016report}
+Lily Chen, Lily Chen, Stephen Jordan, Yi-Kai Liu, Dustin Moody, Rene Peralta,
+  Ray Perlner, and Daniel Smith-Tone.
+\newblock {\em Report on post-quantum cryptography}.
+\newblock US Department of Commerce, National Institute of Standards and
+  Technology, 2016.
+
+\bibitem[DDLL13]{ducas2013lattice}
+L{\'e}o Ducas, Alain Durmus, Tancr{\`e}de Lepoint, and Vadim Lyubashevsky.
+\newblock Lattice signatures and bimodal gaussians.
+\newblock In {\em Advances in Cryptology--CRYPTO 2013}, pages 40--56. Springer,
+  2013.
+
+\bibitem[DHH{\etalchar{+}}15]{DBLP:journals/dcc/DullHHHPSS15}
+Michael D{\"{u}}ll, Bj{\"{o}}rn Haase, Gesine Hinterw{\"{a}}lder, Michael
+  Hutter, Christof Paar, Ana~Helena S{\'{a}}nchez, and Peter Schwabe.
+\newblock High-speed curve25519 on 8-bit, 16-bit, and 32-bit microcontrollers.
+\newblock {\em Des. Codes Cryptography}, 77(2-3):493--514, 2015.
+
+\bibitem[DLP14]{DBLP:conf/asiacrypt/DucasLP14}
+L{\'{e}}o Ducas, Vadim Lyubashevsky, and Thomas Prest.
+\newblock Efficient identity-based encryption over {NTRU} lattices.
+\newblock In Palash Sarkar and Tetsu Iwata, editors, {\em Advances in
+  Cryptology - {ASIACRYPT} 2014 - 20th International Conference on the Theory
+  and Application of Cryptology and Information Security, Kaoshiung, Taiwan,
+  R.O.C., December 7-11, 2014, Proceedings, Part {II}}, volume 8874 of {\em
+  Lecture Notes in Computer Science}, pages 22--41. Springer, 2014.
+
+\bibitem[Gen09]{gentry2009fully}
+Craig Gentry.
+\newblock {\em A fully homomorphic encryption scheme}.
+\newblock Stanford University, 2009.
+
+\bibitem[GFS{\etalchar{+}}12]{DBLP:conf/ches/GottertFSBH12}
+Norman G{\"{o}}ttert, Thomas Feller, Michael Schneider, Johannes~A. Buchmann,
+  and Sorin~A. Huss.
+\newblock On the design of hardware building blocks for modern lattice-based
+  encryption schemes.
+\newblock In Emmanuel Prouff and Patrick Schaumont, editors, {\em Cryptographic
+  Hardware and Embedded Systems - {CHES} 2012 - 14th International Workshop,
+  Leuven, Belgium, September 9-12, 2012. Proceedings}, volume 7428 of {\em
+  Lecture Notes in Computer Science}, pages 512--529. Springer, 2012.
+
+\bibitem[GOPS13]{DBLP:conf/pqcrypto/GuneysuOPS13}
+Tim G{\"{u}}neysu, Tobias Oder, Thomas P{\"{o}}ppelmann, and Peter Schwabe.
+\newblock Software speed records for lattice-based signatures.
+\newblock In Philippe Gaborit, editor, {\em Post-Quantum Cryptography - 5th
+  International Workshop, PQCrypto 2013, Limoges, France, June 4-7, 2013.
+  Proceedings}, volume 7932 of {\em Lecture Notes in Computer Science}, pages
+  67--82. Springer, 2013.
+
+\bibitem[HMO{\etalchar{+}}16]{DBLP:conf/dac/HoweMORGB16}
+James Howe, Ciara Moore, M{\'{a}}ire O'Neill, Francesco Regazzoni, Tim
+  G{\"{u}}neysu, and K.~Beeden.
+\newblock Standard lattices in hardware.
+\newblock In {\em Proceedings of the 53rd Annual Design Automation Conference,
+  {DAC} 2016, Austin, TX, USA, June 5-9, 2016}, pages 162:1--162:6. {ACM},
+  2016.
+
+\bibitem[HPO{\etalchar{+}}15]{DBLP:journals/tecs/HowePOOG15}
+James Howe, Thomas P{\"{o}}ppelmann, M{\'{a}}ire O'Neill, Elizabeth O'Sullivan,
+  and Tim G{\"{u}}neysu.
+\newblock Practical lattice-based digital signature schemes.
+\newblock {\em {ACM} Trans. Embedded Comput. Syst.}, 14(3):41:1--41:24, 2015.
+
+\bibitem[HRKO17]{rtesla}
+James Howe, Ciara Rafferty, Ayesha Khalid, and M{\'a}ire O'Neill.
+\newblock Compact and provably secure lattice-based signatures in hardware.
+\newblock In {\em Circuits and Systems (ISCAS), 2017 IEEE International
+  Symposium on}, pages 1--4. IEEE, 2017.
+
+\bibitem[KAK16]{DBLP:conf/indocrypt/KozielAK16}
+Brian Koziel, Reza Azarderakhsh, and Mehran~Mozaffari Kermani.
+\newblock Fast hardware architectures for supersingular isogeny
+  {Diffie-Hellman} key exchange on {FPGA}.
+\newblock In Orr Dunkelman and Somitra~Kumar Sanadhya, editors, {\em Progress
+  in Cryptology - {INDOCRYPT} 2016 - 17th International Conference on
+  Cryptology in India, Kolkata, India, December 11-14, 2016, Proceedings},
+  volume 10095 of {\em Lecture Notes in Computer Science}, pages 191--206,
+  2016.
+
+\bibitem[KLC{\etalchar{+}}17]{cryptoeprint:2017:690}
+Po-Chun Kuo, Wen-Ding Li, Yu-Wei Chen, Yuan-Che Hsu, Bo-Yuan Peng, Chen-Mou
+  Cheng, and Bo-Yin Yang.
+\newblock High performance post-quantum key exchange on {FPGAs}.
+\newblock Cryptology ePrint Archive, Report 2017/690, 2017.
+\newblock \url{https://eprint.iacr.org/2017/690}.
+
+\bibitem[LN16]{DBLP:conf/cans/LongaN16}
+Patrick Longa and Michael Naehrig.
+\newblock Speeding up the number theoretic transform for faster ideal
+  lattice-based cryptography.
+\newblock In Sara Foresti and Giuseppe Persiano, editors, {\em Cryptology and
+  Network Security - 15th International Conference, {CANS} 2016, Milan, Italy,
+  November 14-16, 2016, Proceedings}, volume 10052 of {\em Lecture Notes in
+  Computer Science}, pages 124--139, 2016.
+
+\bibitem[LP11]{DBLP:conf/ctrsa/LindnerP11}
+Richard Lindner and Chris Peikert.
+\newblock Better key sizes (and attacks) for {LWE}-based encryption.
+\newblock In Aggelos Kiayias, editor, {\em Topics in Cryptology - {CT-RSA} 2011
+  - The Cryptographers' Track at the {RSA} Conference 2011, San Francisco, CA,
+  USA, February 14-18, 2011. Proceedings}, volume 6558 of {\em Lecture Notes in
+  Computer Science}, pages 319--339. Springer, 2011.
+
+\bibitem[LPR10]{DBLP:conf/eurocrypt/LyubashevskyPR10}
+Vadim Lyubashevsky, Chris Peikert, and Oded Regev.
+\newblock On ideal lattices and learning with errors over rings.
+\newblock In Henri Gilbert, editor, {\em Advances in Cryptology - {EUROCRYPT}
+  2010, 29th Annual International Conference on the Theory and Applications of
+  Cryptographic Techniques, French Riviera, May 30 - June 3, 2010.
+  Proceedings}, volume 6110 of {\em Lecture Notes in Computer Science}, pages
+  1--23. Springer, 2010.
+
+\bibitem[LSH{\etalchar{+}}15]{DBLP:conf/ccs/0001SHHG15}
+Zhe Liu, Hwajeong Seo, Zhi Hu, Xinyi Huang, and Johann Gro{\ss}sch{\"{a}}dl.
+\newblock Efficient implementation of {ECDH} key exchange for {MSP430}-based
+  wireless sensor networks.
+\newblock In Feng Bao, Steven Miller, Jianying Zhou, and Gail{-}Joon Ahn,
+  editors, {\em Proceedings of the 10th {ACM} Symposium on Information,
+  Computer and Communications Security, {ASIA} {CCS} '15, Singapore, April
+  14-17, 2015}, pages 145--153. {ACM}, 2015.
+
+\bibitem[LSR{\etalchar{+}}15]{DBLP:journals/iacr/0001SRGKV15}
+Zhe Liu, Hwajeong Seo, Sujoy~Sinha Roy, Johann Gro{\ss}sch{\"{a}}dl, Howon Kim,
+  and Ingrid Verbauwhede.
+\newblock Efficient ring-{LWE} encryption on 8-bit {AVR} processors.
+\newblock {\em {IACR} Cryptology ePrint Archive}, 2015:410, 2015.
+
+\bibitem[Lyu08]{DBLP:conf/pkc/Lyubashevsky08}
+Vadim Lyubashevsky.
+\newblock Lattice-based identification schemes secure under active attacks.
+\newblock In Ronald Cramer, editor, {\em Public Key Cryptography - {PKC} 2008,
+  11th International Workshop on Practice and Theory in Public-Key
+  Cryptography, Barcelona, Spain, March 9-12, 2008. Proceedings}, volume 4939
+  of {\em Lecture Notes in Computer Science}, pages 162--179. Springer, 2008.
+
+\bibitem[Lyu12]{lyu12}
+Vadim Lyubashevsky.
+\newblock Lattice signatures without trapdoors.
+\newblock In David Pointcheval and Thomas Johansson, editors, {\em Advances in
+  Cryptology -- EUROCRYPT 2012}, pages 738--755, Berlin, Heidelberg, 2012.
+  Springer Berlin Heidelberg.
+
+\bibitem[MP13]{DBLP:conf/crypto/MicciancioP13}
+Daniele Micciancio and Chris Peikert.
+\newblock Hardness of {SIS} and {LWE} with small parameters.
+\newblock In Ran Canetti and Juan~A. Garay, editors, {\em Advances in
+  Cryptology - {CRYPTO} 2013 - 33rd Annual Cryptology Conference, Santa
+  Barbara, CA, USA, August 18-22, 2013. Proceedings, Part {I}}, volume 8042 of
+  {\em Lecture Notes in Computer Science}, pages 21--39. Springer, 2013.
+
+\bibitem[OG17]{oder2017implementing}
+Tobias Oder and Tim G{\"u}neysu.
+\newblock Implementing the {NewHope}-simple key exchange on low-cost {FPGAs}.
+\newblock {\em Progress in Cryptology--LATINCRYPT}, 2017, 2017.
+
+\bibitem[PAA{\etalchar{+}}17]{NISTPQC-R1:NewHope17}
+Thomas Poppelmann, Erdem Alkim, Roberto Avanzi, Joppe Bos, Leo Ducas, Antonio
+  de~la Piedra, Peter Schwabe, and Douglas Stebila.
+\newblock Newhope.
+\newblock Technical report, {N}ational {I}nstitute of {S}tandards and
+  {T}echnology, 2017.
+\newblock available at
+  \url{https://csrc.nist.gov/projects/post-quantum-cryptography/round-1-submissions}.
+
+\bibitem[pqm]{pqm4}
+{pqm4} - post-quantum crypto library for the {ARM Cortex-M4}.
+\newblock \url{https://github.com/mupq/pqm4}.
+\newblock Accessed: 2018-06-27.
+
+\bibitem[Reg05]{DBLP:conf/stoc/Regev05}
+Oded Regev.
+\newblock On lattices, learning with errors, random linear codes, and
+  cryptography.
+\newblock In Harold~N. Gabow and Ronald Fagin, editors, {\em Proceedings of the
+  37th Annual {ACM} Symposium on Theory of Computing, Baltimore, MD, USA, May
+  22-24, 2005}, pages 84--93. {ACM}, 2005.
+
+\bibitem[Reg10]{DBLP:conf/coco/Regev10}
+Oded Regev.
+\newblock The learning with errors problem (invited survey).
+\newblock In {\em Proceedings of the 25th Annual {IEEE} Conference on
+  Computational Complexity, {CCC} 2010, Cambridge, Massachusetts, June 9-12,
+  2010}, pages 191--204. {IEEE} Computer Society, 2010.
+
+\bibitem[RMF{\etalchar{+}}15]{DBLP:conf/tsp/RasoMFPK15}
+Ondrej Raso, Petr Mlynek, Radek Fujdiak, Ladislav Pospichal, and Pavel Kubicek.
+\newblock Implementation of elliptic curve {Diffie Hellman} in ultra-low power
+  microcontroller.
+\newblock In {\em 38th International Conference on Telecommunications and
+  Signal Processing, {TSP} 2015, Prague, Czech Republic, July 9-11, 2015},
+  pages 662--666. {IEEE}, 2015.
+
+\bibitem[RVM{\etalchar{+}}14]{DBLP:conf/ches/RoyVMCV14}
+Sujoy~Sinha Roy, Frederik Vercauteren, Nele Mentens, Donald~Donglong Chen, and
+  Ingrid Verbauwhede.
+\newblock Compact ring-{LWE} cryptoprocessor.
+\newblock In Lejla Batina and Matthew Robshaw, editors, {\em Cryptographic
+  Hardware and Embedded Systems - {CHES} 2014 - 16th International Workshop,
+  Busan, South Korea, September 23-26, 2014. Proceedings}, volume 8731 of {\em
+  Lecture Notes in Computer Science}, pages 371--391. Springer, 2014.
+
+\bibitem[Sho94]{DBLP:conf/focs/Shor94}
+Peter~W. Shor.
+\newblock Algorithms for quantum computation: Discrete logarithms and
+  factoring.
+\newblock In {\em 35th Annual Symposium on Foundations of Computer Science,
+  Santa Fe, New Mexico, USA, 20-22 November 1994}, pages 124--134. {IEEE}
+  Computer Society, 1994.
+
+\bibitem[SS16]{DBLP:conf/sacrypt/SchwabeS16}
+Peter Schwabe and Ko~Stoffelen.
+\newblock All the {AES} you need on {Cortex-M3} and {M4}.
+\newblock In Roberto Avanzi and Howard~M. Heys, editors, {\em Selected Areas in
+  Cryptography - {SAC} 2016 - 23rd International Conference, St. John's, NL,
+  Canada, August 10-12, 2016, Revised Selected Papers}, volume 10532 of {\em
+  Lecture Notes in Computer Science}, pages 180--194. Springer, 2016.
+
+\bibitem[vMHG16]{DBLP:conf/pqcrypto/MaurichHG16}
+Ingo von Maurich, Lukas Heberle, and Tim G{\"{u}}neysu.
+\newblock {IND-CCA} secure hybrid encryption from {QC-MDPC} niederreiter.
+\newblock In Tsuyoshi Takagi, editor, {\em Post-Quantum Cryptography - 7th
+  International Workshop, PQCrypto 2016, Fukuoka, Japan, February 24-26, 2016,
+  Proceedings}, volume 9606 of {\em Lecture Notes in Computer Science}, pages
+  1--17. Springer, 2016.
+
+\end{thebibliography}

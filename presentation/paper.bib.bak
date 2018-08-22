@@ -1,0 +1,960 @@
+@ARTICLE{forbes,
+  author =       {Lane Campbell},
+  title =        {{Worse than Y2K: quantum computing and the end of privacy}},
+  journal =      {Forbes},
+  year =         {2018},
+  url =       \url{https://www.forbes.com/sites/forbestechcouncil/2018/04/18/worse-than-y2k-quantum-computing-and-the-end-of-privacy/#5f5e2ceb4829},
+}
+
+@ARTICLE{wired,
+  author =       {Nicole Kobie},
+  title =        {{The quantum clock is ticking on encryption - and your data is under threat}},
+  journal =      {Wired},
+  year =         {2016},
+  url =       \url{http://www.wired.co.uk/article/quantum-computers-quantum-security-encryption},
+}
+
+@ARTICLE{newsci,
+  author =       {Michael Brooks},
+  title =        {{Unbreakable: The race to protect our secrets from quantum hacks
+}},
+  journal =      {New Scientist},
+  year =         {2018},
+  url =       \url{https://www.newscientist.com/article/mg23731670-800-unbreakable-the-race-to-protect-our-secrets-from-quantum-hacks/},
+}
+
+@inproceedings{DBLP:conf/focs/Shor94,
+  author    = {Peter W. Shor},
+  title     = {Algorithms for Quantum Computation: Discrete Logarithms and Factoring},
+  booktitle = {35th Annual Symposium on Foundations of Computer Science, Santa Fe,
+               New Mexico, USA, 20-22 November 1994},
+  pages     = {124--134},
+  year      = {1994},
+  crossref  = {DBLP:conf/focs/FOCS35},
+  url       = {https://doi.org/10.1109/SFCS.1994.365700},
+  doi       = {10.1109/SFCS.1994.365700},
+  timestamp = {Fri, 19 May 2017 01:26:00 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/focs/Shor94},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/focs/FOCS35,
+  title     = {35th Annual Symposium on Foundations of Computer Science, Santa Fe,
+               New Mexico, USA, 20-22 November 1994},
+  publisher = {{IEEE} Computer Society},
+  year      = {1994},
+  url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=2955},
+  isbn      = {0-8186-6580-7},
+  timestamp = {Mon, 15 Dec 2014 18:48:44 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/focs/FOCS35},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/uss/AlkimDPS16,
+  author    = {Erdem Alkim and
+               L{\'{e}}o Ducas and
+               Thomas P{\"{o}}ppelmann and
+               Peter Schwabe},
+  title     = {Post-quantum Key Exchange - {A} New Hope},
+  booktitle = {25th {USENIX} Security Symposium, {USENIX} Security 16, Austin, TX,
+               USA, August 10-12, 2016.},
+  pages     = {327--343},
+  year      = {2016},
+  crossref  = {DBLP:conf/uss/2016},
+  url       = {https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/alkim},
+  timestamp = {Mon, 05 Sep 2016 15:43:05 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/uss/AlkimDPS16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/uss/2016,
+  editor    = {Thorsten Holz and
+               Stefan Savage},
+  title     = {25th {USENIX} Security Symposium, {USENIX} Security 16, Austin, TX,
+               USA, August 10-12, 2016},
+  publisher = {{USENIX} Association},
+  year      = {2016},
+  url       = {https://www.usenix.org/conference/usenixsecurity16},
+  timestamp = {Mon, 05 Sep 2016 15:32:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/uss/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/ctrsa/LindnerP11,
+  author    = {Richard Lindner and
+               Chris Peikert},
+  title     = {Better Key Sizes (and Attacks) for {LWE}-Based Encryption},
+  booktitle = {Topics in Cryptology - {CT-RSA} 2011 - The Cryptographers' Track at
+               the {RSA} Conference 2011, San Francisco, CA, USA, February 14-18,
+               2011. Proceedings},
+  pages     = {319--339},
+  year      = {2011},
+  crossref  = {DBLP:conf/ctrsa/2011},
+  url       = {https://doi.org/10.1007/978-3-642-19074-2_21},
+  doi       = {10.1007/978-3-642-19074-2_21},
+  timestamp = {Sun, 21 May 2017 00:20:21 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ctrsa/LindnerP11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/ctrsa/2011,
+  editor    = {Aggelos Kiayias},
+  title     = {Topics in Cryptology - {CT-RSA} 2011 - The Cryptographers' Track at
+               the {RSA} Conference 2011, San Francisco, CA, USA, February 14-18,
+               2011. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6558},
+  publisher = {Springer},
+  year      = {2011},
+  url       = {https://doi.org/10.1007/978-3-642-19074-2},
+  doi       = {10.1007/978-3-642-19074-2},
+  isbn      = {978-3-642-19073-5},
+  timestamp = {Sun, 21 May 2017 00:20:21 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ctrsa/2011},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{DBLP:conf/dac/HoweMORGB16,
+  author    = {James Howe and
+               Ciara Moore and
+               M{\'{a}}ire O'Neill and
+               Francesco Regazzoni and
+               Tim G{\"{u}}neysu and
+               K. Beeden},
+  title     = {Standard lattices in hardware},
+  booktitle = {Proceedings of the 53rd Annual Design Automation Conference, {DAC}
+               2016, Austin, TX, USA, June 5-9, 2016},
+  pages     = {162:1--162:6},
+  year      = {2016},
+  crossref  = {DBLP:conf/dac/2016},
+  url       = {http://doi.acm.org/10.1145/2897937.2898037},
+  doi       = {10.1145/2897937.2898037},
+  timestamp = {Thu, 15 Jun 2017 21:38:40 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/dac/HoweMORGB16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/dac/2016,
+  title     = {Proceedings of the 53rd Annual Design Automation Conference, {DAC}
+               2016, Austin, TX, USA, June 5-9, 2016},
+  publisher = {{ACM}},
+  year      = {2016},
+  url       = {http://doi.acm.org/10.1145/2897937},
+  doi       = {10.1145/2897937},
+  isbn      = {978-1-4503-4236-0},
+  timestamp = {Fri, 27 May 2016 08:51:22 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/dac/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/cans/LongaN16,
+  author    = {Patrick Longa and
+               Michael Naehrig},
+  title     = {Speeding up the Number Theoretic Transform for Faster Ideal Lattice-Based
+               Cryptography},
+  booktitle = {Cryptology and Network Security - 15th International Conference, {CANS}
+               2016, Milan, Italy, November 14-16, 2016, Proceedings},
+  pages     = {124--139},
+  year      = {2016},
+  crossref  = {DBLP:conf/cans/2016},
+  url       = {https://doi.org/10.1007/978-3-319-48965-0_8},
+  doi       = {10.1007/978-3-319-48965-0_8},
+  timestamp = {Wed, 24 May 2017 08:27:41 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cans/LongaN16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/cans/2016,
+  editor    = {Sara Foresti and
+               Giuseppe Persiano},
+  title     = {Cryptology and Network Security - 15th International Conference, {CANS}
+               2016, Milan, Italy, November 14-16, 2016, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10052},
+  year      = {2016},
+  url       = {https://doi.org/10.1007/978-3-319-48965-0},
+  doi       = {10.1007/978-3-319-48965-0},
+  isbn      = {978-3-319-48964-3},
+  timestamp = {Wed, 24 May 2017 08:27:41 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/cans/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{DBLP:journals/iacr/0001SRGKV15,
+  author    = {Zhe Liu and
+               Hwajeong Seo and
+               Sujoy Sinha Roy and
+               Johann Gro{\ss}sch{\"{a}}dl and
+               Howon Kim and
+               Ingrid Verbauwhede},
+  title     = {Efficient Ring-{LWE} Encryption on 8-bit {AVR} Processors},
+  journal   = {{IACR} Cryptology ePrint Archive},
+  volume    = {2015},
+  pages     = {410},
+  year      = {2015},
+  url       = {http://eprint.iacr.org/2015/410},
+  timestamp = {Thu, 08 Jun 2017 14:26:38 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/iacr/0001SRGKV15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ches/RoyVMCV14,
+  author    = {Sujoy Sinha Roy and
+               Frederik Vercauteren and
+               Nele Mentens and
+               Donald Donglong Chen and
+               Ingrid Verbauwhede},
+  title     = {Compact Ring-{LWE} Cryptoprocessor},
+  booktitle = {Cryptographic Hardware and Embedded Systems - {CHES} 2014 - 16th International
+               Workshop, Busan, South Korea, September 23-26, 2014. Proceedings},
+  pages     = {371--391},
+  year      = {2014},
+  crossref  = {DBLP:conf/ches/2014},
+  url       = {https://doi.org/10.1007/978-3-662-44709-3_21},
+  doi       = {10.1007/978-3-662-44709-3_21},
+  timestamp = {Sun, 21 May 2017 00:18:33 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ches/RoyVMCV14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/ches/2014,
+  editor    = {Lejla Batina and
+               Matthew Robshaw},
+  title     = {Cryptographic Hardware and Embedded Systems - {CHES} 2014 - 16th International
+               Workshop, Busan, South Korea, September 23-26, 2014. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8731},
+  publisher = {Springer},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/978-3-662-44709-3},
+  doi       = {10.1007/978-3-662-44709-3},
+  isbn      = {978-3-662-44708-6},
+  timestamp = {Sun, 21 May 2017 00:18:33 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ches/2014},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/ches/GottertFSBH12,
+  author    = {Norman G{\"{o}}ttert and
+               Thomas Feller and
+               Michael Schneider and
+               Johannes A. Buchmann and
+               Sorin A. Huss},
+  title     = {On the Design of Hardware Building Blocks for Modern Lattice-Based
+               Encryption Schemes},
+  booktitle = {Cryptographic Hardware and Embedded Systems - {CHES} 2012 - 14th International
+               Workshop, Leuven, Belgium, September 9-12, 2012. Proceedings},
+  pages     = {512--529},
+  year      = {2012},
+  crossref  = {DBLP:conf/ches/2012},
+  url       = {https://doi.org/10.1007/978-3-642-33027-8_30},
+  doi       = {10.1007/978-3-642-33027-8_30},
+  timestamp = {Sun, 21 May 2017 00:18:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ches/GottertFSBH12},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/ches/2012,
+  editor    = {Emmanuel Prouff and
+               Patrick Schaumont},
+  title     = {Cryptographic Hardware and Embedded Systems - {CHES} 2012 - 14th International
+               Workshop, Leuven, Belgium, September 9-12, 2012. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7428},
+  publisher = {Springer},
+  year      = {2012},
+  url       = {https://doi.org/10.1007/978-3-642-33027-8},
+  doi       = {10.1007/978-3-642-33027-8},
+  isbn      = {978-3-642-33026-1},
+  timestamp = {Sun, 21 May 2017 00:18:34 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ches/2012},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/pqcrypto/GuneysuOPS13,
+  author    = {Tim G{\"{u}}neysu and
+               Tobias Oder and
+               Thomas P{\"{o}}ppelmann and
+               Peter Schwabe},
+  title     = {Software Speed Records for Lattice-Based Signatures},
+  booktitle = {Post-Quantum Cryptography - 5th International Workshop, PQCrypto 2013,
+               Limoges, France, June 4-7, 2013. Proceedings},
+  pages     = {67--82},
+  year      = {2013},
+  crossref  = {DBLP:conf/pqcrypto/2013},
+  url       = {https://doi.org/10.1007/978-3-642-38616-9_5},
+  doi       = {10.1007/978-3-642-38616-9_5},
+  timestamp = {Thu, 15 Jun 2017 21:45:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pqcrypto/GuneysuOPS13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/pqcrypto/2013,
+  editor    = {Philippe Gaborit},
+  title     = {Post-Quantum Cryptography - 5th International Workshop, PQCrypto 2013,
+               Limoges, France, June 4-7, 2013. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7932},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-642-38616-9},
+  doi       = {10.1007/978-3-642-38616-9},
+  isbn      = {978-3-642-38615-2},
+  timestamp = {Fri, 26 May 2017 00:51:40 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pqcrypto/2013},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/eurocrypt/LyubashevskyPR10,
+  author    = {Vadim Lyubashevsky and
+               Chris Peikert and
+               Oded Regev},
+  title     = {On Ideal Lattices and Learning with Errors over Rings},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2010, 29th Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               French Riviera, May 30 - June 3, 2010. Proceedings},
+  pages     = {1--23},
+  year      = {2010},
+  crossref  = {DBLP:conf/eurocrypt/2010},
+  url       = {https://doi.org/10.1007/978-3-642-13190-5_1},
+  doi       = {10.1007/978-3-642-13190-5_1},
+  timestamp = {Wed, 24 May 2017 08:31:22 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/eurocrypt/LyubashevskyPR10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/eurocrypt/2010,
+  editor    = {Henri Gilbert},
+  title     = {Advances in Cryptology - {EUROCRYPT} 2010, 29th Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               French Riviera, May 30 - June 3, 2010. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6110},
+  publisher = {Springer},
+  year      = {2010},
+  url       = {https://doi.org/10.1007/978-3-642-13190-5},
+  doi       = {10.1007/978-3-642-13190-5},
+  isbn      = {978-3-642-13189-9},
+  timestamp = {Wed, 24 May 2017 08:31:22 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/eurocrypt/2010},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{DBLP:journals/tecs/HowePOOG15,
+  author    = {James Howe and
+               Thomas P{\"{o}}ppelmann and
+               M{\'{a}}ire O'Neill and
+               Elizabeth O'Sullivan and
+               Tim G{\"{u}}neysu},
+  title     = {Practical Lattice-Based Digital Signature Schemes},
+  journal   = {{ACM} Trans. Embedded Comput. Syst.},
+  volume    = {14},
+  number    = {3},
+  pages     = {41:1--41:24},
+  year      = {2015},
+  url       = {http://doi.acm.org/10.1145/2724713},
+  doi       = {10.1145/2724713},
+  timestamp = {Wed, 14 Jun 2017 20:36:10 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/tecs/HowePOOG15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{gentry2009fully,
+  title={A fully homomorphic encryption scheme},
+  author={Gentry, Craig},
+  year={2009},
+  publisher={Stanford University}
+}
+
+@inproceedings{DBLP:conf/tcc/Boyen13,
+  author    = {Xavier Boyen},
+  title     = {Attribute-Based Functional Encryption on Lattices},
+  booktitle = {Theory of Cryptography - 10th Theory of Cryptography Conference, {TCC}
+               2013, Tokyo, Japan, March 3-6, 2013. Proceedings},
+  pages     = {122--142},
+  year      = {2013},
+  crossref  = {DBLP:conf/tcc/2013},
+  url       = {https://doi.org/10.1007/978-3-642-36594-2_8},
+  doi       = {10.1007/978-3-642-36594-2_8},
+  timestamp = {Tue, 23 May 2017 01:06:07 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/tcc/Boyen13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/tcc/2013,
+  editor    = {Amit Sahai},
+  title     = {Theory of Cryptography - 10th Theory of Cryptography Conference, {TCC}
+               2013, Tokyo, Japan, March 3-6, 2013. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {7785},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-642-36594-2},
+  doi       = {10.1007/978-3-642-36594-2},
+  isbn      = {978-3-642-36593-5},
+  timestamp = {Tue, 23 May 2017 01:06:07 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/tcc/2013},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/asiacrypt/DucasLP14,
+  author    = {L{\'{e}}o Ducas and
+               Vadim Lyubashevsky and
+               Thomas Prest},
+  title     = {Efficient Identity-Based Encryption over {NTRU} Lattices},
+  booktitle = {Advances in Cryptology - {ASIACRYPT} 2014 - 20th International Conference
+               on the Theory and Application of Cryptology and Information Security,
+               Kaoshiung, Taiwan, R.O.C., December 7-11, 2014, Proceedings, Part
+               {II}},
+  pages     = {22--41},
+  year      = {2014},
+  crossref  = {DBLP:conf/asiacrypt/2014},
+  url       = {https://doi.org/10.1007/978-3-662-45608-8_2},
+  doi       = {10.1007/978-3-662-45608-8_2},
+  timestamp = {Fri, 19 May 2017 01:26:33 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/asiacrypt/DucasLP14},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/asiacrypt/2014,
+  editor    = {Palash Sarkar and
+               Tetsu Iwata},
+  title     = {Advances in Cryptology - {ASIACRYPT} 2014 - 20th International Conference
+               on the Theory and Application of Cryptology and Information Security,
+               Kaoshiung, Taiwan, R.O.C., December 7-11, 2014, Proceedings, Part
+               {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8874},
+  publisher = {Springer},
+  year      = {2014},
+  url       = {https://doi.org/10.1007/978-3-662-45608-8},
+  doi       = {10.1007/978-3-662-45608-8},
+  isbn      = {978-3-662-45607-1},
+  timestamp = {Fri, 19 May 2017 01:26:32 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/asiacrypt/2014},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/tcc/BonehSW11,
+  author    = {Dan Boneh and
+               Amit Sahai and
+               Brent Waters},
+  title     = {Functional Encryption: Definitions and Challenges},
+  booktitle = {Theory of Cryptography - 8th Theory of Cryptography Conference, {TCC}
+               2011, Providence, RI, USA, March 28-30, 2011. Proceedings},
+  pages     = {253--273},
+  year      = {2011},
+  crossref  = {DBLP:conf/tcc/2011},
+  url       = {https://doi.org/10.1007/978-3-642-19571-6_16},
+  doi       = {10.1007/978-3-642-19571-6_16},
+  timestamp = {Tue, 13 Jun 2017 11:30:16 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/tcc/BonehSW11},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/tcc/2011,
+  editor    = {Yuval Ishai},
+  title     = {Theory of Cryptography - 8th Theory of Cryptography Conference, {TCC}
+               2011, Providence, RI, USA, March 28-30, 2011. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6597},
+  publisher = {Springer},
+  year      = {2011},
+  url       = {https://doi.org/10.1007/978-3-642-19571-6},
+  doi       = {10.1007/978-3-642-19571-6},
+  isbn      = {978-3-642-19570-9},
+  timestamp = {Tue, 13 Jun 2017 11:30:16 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/tcc/2011},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/crypto/MicciancioP13,
+  author    = {Daniele Micciancio and
+               Chris Peikert},
+  title     = {Hardness of {SIS} and {LWE} with Small Parameters},
+  booktitle = {Advances in Cryptology - {CRYPTO} 2013 - 33rd Annual Cryptology Conference,
+               Santa Barbara, CA, USA, August 18-22, 2013. Proceedings, Part {I}},
+  pages     = {21--39},
+  year      = {2013},
+  crossref  = {DBLP:conf/crypto/2013-1},
+  url       = {https://doi.org/10.1007/978-3-642-40041-4_2},
+  doi       = {10.1007/978-3-642-40041-4_2},
+  timestamp = {Fri, 26 May 2017 00:50:20 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/crypto/MicciancioP13},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/crypto/2013-1,
+  editor    = {Ran Canetti and
+               Juan A. Garay},
+  title     = {Advances in Cryptology - {CRYPTO} 2013 - 33rd Annual Cryptology Conference,
+               Santa Barbara, CA, USA, August 18-22, 2013. Proceedings, Part {I}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {8042},
+  publisher = {Springer},
+  year      = {2013},
+  url       = {https://doi.org/10.1007/978-3-642-40041-4},
+  doi       = {10.1007/978-3-642-40041-4},
+  isbn      = {978-3-642-40040-7},
+  timestamp = {Fri, 26 May 2017 00:50:20 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/crypto/2013-1},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@book{chen2016report,
+  title={Report on post-quantum cryptography},
+  author={Chen, Lily and Chen, Lily and Jordan, Stephen and Liu, Yi-Kai and Moody, Dustin and Peralta, Rene and Perlner, Ray and Smith-Tone, Daniel},
+  year={2016},
+  publisher={US Department of Commerce, National Institute of Standards and Technology}
+}
+
+@inproceedings{DBLP:conf/ccs/BosCDMNNRS16,
+  author    = {Joppe W. Bos and
+               Craig Costello and
+               L{\'{e}}o Ducas and
+               Ilya Mironov and
+               Michael Naehrig and
+               Valeria Nikolaenko and
+               Ananth Raghunathan and
+               Douglas Stebila},
+  title     = {Frodo: Take off the Ring! Practical, Quantum-Secure Key Exchange from
+               {LWE}},
+  booktitle = {Proceedings of the 2016 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, Vienna, Austria, October 24-28, 2016},
+  pages     = {1006--1018},
+  year      = {2016},
+  crossref  = {DBLP:conf/ccs/2016},
+  url       = {http://doi.acm.org/10.1145/2976749.2978425},
+  doi       = {10.1145/2976749.2978425},
+  timestamp = {Mon, 24 Oct 2016 18:57:12 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ccs/BosCDMNNRS16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/ccs/2016,
+  editor    = {Edgar R. Weippl and
+               Stefan Katzenbeisser and
+               Christopher Kruegel and
+               Andrew C. Myers and
+               Shai Halevi},
+  title     = {Proceedings of the 2016 {ACM} {SIGSAC} Conference on Computer and
+               Communications Security, Vienna, Austria, October 24-28, 2016},
+  publisher = {{ACM}},
+  year      = {2016},
+  url       = {http://dl.acm.org/citation.cfm?id=2976749},
+  isbn      = {978-1-4503-4139-4},
+  timestamp = {Mon, 24 Oct 2016 15:38:42 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/ccs/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@misc{nistpq,
+  title = {Post-Quantum Crypto Project},
+  author={NIST},
+  year = 2016,
+  howpublished = {\url{http://csrc.nist.gov/groups/ST/post-quantum-crypto/}},
+  note = {Accessed: 17.05.2018}
+}
+
+@incollection{micciancio2009lattice,
+  title={Lattice-based cryptography},
+  author={Micciancio, Daniele and Regev, Oded},
+  booktitle={Post-quantum cryptography},
+  pages={147--191},
+  year={2009},
+  publisher={Springer}
+}
+
+@article{howe2015practical,
+  title={Practical Lattice-Based Digital Signature Schemes},
+  author={Howe, James and P{\"o}ppelmann, Thomas and O'Neill, M{\'a}ire and O'Sullivan, Elizabeth and G{\"u}neysu, Tim},
+  journal={ACM Transactions on Embedded Computing Systems},
+  volume={14},
+  number={3},
+  pages={24},
+  year={2015},
+  publisher={{ACM}}
+}
+
+@article{campagna2015quantum,
+  title={Quantum Safe Cryptography And Security},
+  author={Campagna, M and Chen, L and Dagdelen, {\"O} and Ding, J and Fernick, JK and Gisin, N and Hayford, D and Jennewein, T and L{\"u}tkenhaus, N and Mosca, M and others},
+  journal={ETSI White Paper},
+  number={8},
+  year={2015}
+}
+
+@misc{initial,
+  title={Initial recommendations of long-term secure post-quantum systems (2015)},
+  author={Augot, Daniel and Batina, Lejla and Bernstein, Daniel J and Bos, Joppe and Buchmann, Johannes and Castryck, Wouter and Dunkelman, Orr and G{\"u}neysu, Tim and Gueron, Shay and H{\"u}lsing, Andreas and others},
+  howpublished = {\url{https://pqcrypto.eu.org/docs/initial-recommendations.pdf}}
+}
+
+@misc{frodo-nist,
+  title={{FrodoKEM} {Learning With Errors} Key Encapsulation},
+  author={Erdem Alkim and Joppe W. Bos and L\'{e}o Ducas and Patrick Longa and Ilya Mironov and Michael Naehrig and Valeria Nikolaenko and Chris Peikert and Ananth Raghunathan and Douglas Stebila and Karen Easterbrook and Brian LaMacchia},
+  howpublished = {\url{https://frodokem.org/files/FrodoKEM-specification-20171130.pdf}},
+  note = {Accessed: 2018-04-13}
+}
+
+@article{DBLP:journals/dcc/DullHHHPSS15,
+  author    = {Michael D{\"{u}}ll and
+               Bj{\"{o}}rn Haase and
+               Gesine Hinterw{\"{a}}lder and
+               Michael Hutter and
+               Christof Paar and
+               Ana Helena S{\'{a}}nchez and
+               Peter Schwabe},
+  title     = {High-speed Curve25519 on 8-bit, 16-bit, and 32-bit microcontrollers},
+  journal   = {Des. Codes Cryptography},
+  volume    = {77},
+  number    = {2-3},
+  pages     = {493--514},
+  year      = {2015},
+  url       = {https://doi.org/10.1007/s10623-015-0087-1},
+  doi       = {10.1007/s10623-015-0087-1},
+  timestamp = {Sat, 20 May 2017 00:23:20 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/dcc/DullHHHPSS15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ccs/0001SHHG15,
+  author    = {Zhe Liu and
+               Hwajeong Seo and
+               Zhi Hu and
+               Xinyi Huang and
+               Johann Gro{\ss}sch{\"{a}}dl},
+  title     = {Efficient Implementation of {ECDH} Key Exchange for {MSP430}-Based Wireless
+               Sensor Networks},
+  booktitle = {Proceedings of the 10th {ACM} Symposium on Information, Computer and
+               Communications Security, {ASIA} {CCS} '15, Singapore, April 14-17,
+               2015},
+  pages     = {145--153},
+  year      = {2015},
+  crossref  = {DBLP:conf/ccs/2015asia},
+  url       = {http://doi.acm.org/10.1145/2714576.2714608},
+  doi       = {10.1145/2714576.2714608},
+  timestamp = {Tue, 21 Nov 2017 18:32:25 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/ccs/0001SHHG15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/ccs/2015asia,
+  editor    = {Feng Bao and
+               Steven Miller and
+               Jianying Zhou and
+               Gail{-}Joon Ahn},
+  title     = {Proceedings of the 10th {ACM} Symposium on Information, Computer and
+               Communications Security, {ASIA} {CCS} '15, Singapore, April 14-17,
+               2015},
+  publisher = {{ACM}},
+  year      = {2015},
+  url       = {http://dl.acm.org/citation.cfm?id=2714576},
+  isbn      = {978-1-4503-3245-3},
+  timestamp = {Tue, 21 Nov 2017 18:32:24 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/ccs/2015asia},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/tsp/RasoMFPK15,
+  author    = {Ondrej Raso and
+               Petr Mlynek and
+               Radek Fujdiak and
+               Ladislav Pospichal and
+               Pavel Kubicek},
+  title     = {Implementation of Elliptic Curve {Diffie Hellman} in ultra-low power
+               microcontroller},
+  booktitle = {38th International Conference on Telecommunications and Signal Processing,
+               {TSP} 2015, Prague, Czech Republic, July 9-11, 2015},
+  pages     = {662--666},
+  year      = {2015},
+  crossref  = {DBLP:conf/tsp/2015},
+  url       = {https://doi.org/10.1109/TSP.2015.7296346},
+  doi       = {10.1109/TSP.2015.7296346},
+  timestamp = {Sun, 21 May 2017 00:22:35 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/tsp/RasoMFPK15},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/tsp/2015,
+  title     = {38th International Conference on Telecommunications and Signal Processing,
+               {TSP} 2015, Prague, Czech Republic, July 9-11, 2015},
+  publisher = {{IEEE}},
+  year      = {2015},
+  url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7284610},
+  isbn      = {978-1-4799-8498-5},
+  timestamp = {Wed, 14 Oct 2015 13:31:53 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/tsp/2015},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/pqcrypto/MaurichHG16,
+  author    = {Ingo von Maurich and
+               Lukas Heberle and
+               Tim G{\"{u}}neysu},
+  title     = {{IND-CCA} Secure Hybrid Encryption from {QC-MDPC} Niederreiter},
+  booktitle = {Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016,
+               Fukuoka, Japan, February 24-26, 2016, Proceedings},
+  pages     = {1--17},
+  year      = {2016},
+  crossref  = {DBLP:conf/pqcrypto/2016},
+  url       = {https://doi.org/10.1007/978-3-319-29360-8_1},
+  doi       = {10.1007/978-3-319-29360-8_1},
+  timestamp = {Thu, 15 Jun 2017 21:45:50 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pqcrypto/MaurichHG16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/pqcrypto/2016,
+  editor    = {Tsuyoshi Takagi},
+  title     = {Post-Quantum Cryptography - 7th International Workshop, PQCrypto 2016,
+               Fukuoka, Japan, February 24-26, 2016, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {9606},
+  publisher = {Springer},
+  year      = {2016},
+  url       = {https://doi.org/10.1007/978-3-319-29360-8},
+  doi       = {10.1007/978-3-319-29360-8},
+  isbn      = {978-3-319-29359-2},
+  timestamp = {Fri, 26 May 2017 00:51:40 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pqcrypto/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/indocrypt/KozielAK16,
+  author    = {Brian Koziel and
+               Reza Azarderakhsh and
+               Mehran Mozaffari Kermani},
+  title     = {Fast Hardware Architectures for Supersingular Isogeny {Diffie-Hellman}
+               Key Exchange on {FPGA}},
+  booktitle = {Progress in Cryptology - {INDOCRYPT} 2016 - 17th International Conference
+               on Cryptology in India, Kolkata, India, December 11-14, 2016, Proceedings},
+  pages     = {191--206},
+  year      = {2016},
+  crossref  = {DBLP:conf/indocrypt/2016},
+  url       = {https://doi.org/10.1007/978-3-319-49890-4_11},
+  doi       = {10.1007/978-3-319-49890-4_11},
+  timestamp = {Fri, 19 May 2017 01:26:37 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/indocrypt/KozielAK16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/indocrypt/2016,
+  editor    = {Orr Dunkelman and
+               Somitra Kumar Sanadhya},
+  title     = {Progress in Cryptology - {INDOCRYPT} 2016 - 17th International Conference
+               on Cryptology in India, Kolkata, India, December 11-14, 2016, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10095},
+  year      = {2016},
+  url       = {https://doi.org/10.1007/978-3-319-49890-4},
+  doi       = {10.1007/978-3-319-49890-4},
+  isbn      = {978-3-319-49889-8},
+  timestamp = {Fri, 19 May 2017 01:26:37 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/indocrypt/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@misc{pqm4,
+  title={{pqm4} - Post-quantum crypto library for the {ARM Cortex-M4}},
+  howpublished = {\url{https://github.com/mupq/pqm4}},
+  note = {Accessed: 2018-04-12}
+}
+
+@misc{bertoni2016keccak,
+  title={The Keccak Code Package},
+  author={Bertoni, Guido and Daemen, Joan and Peeters, Micha{\"e}l and Assche, GV and Keer, RV},
+  howpublished = {\url{https://github.com/gvanas/KeccakCodePackage}},
+  note = {Accessed: 2018-04-12}
+}
+
+@misc{SHA3,
+	author = {Guido Bertoni and Joan Daemen and Michaël Peeters and Gilles Van Assche and Ronny Van Keer},
+  title = {Is {SHA-3} slow? },
+  howpublished = {\url{https://keccak.team/2017/is_sha3_slow.html}},
+  note = {Accessed: 2018-04-10}
+}
+
+@inproceedings{DBLP:conf/sacrypt/SchwabeS16,
+  author    = {Peter Schwabe and
+               Ko Stoffelen},
+  title     = {All the {AES} You Need on {Cortex-M3} and {M4}},
+  booktitle = {Selected Areas in Cryptography - {SAC} 2016 - 23rd International Conference,
+               St. John's, NL, Canada, August 10-12, 2016, Revised Selected Papers},
+  pages     = {180--194},
+  year      = {2016},
+  crossref  = {DBLP:conf/sacrypt/2016},
+  url       = {https://doi.org/10.1007/978-3-319-69453-5_10},
+  doi       = {10.1007/978-3-319-69453-5_10},
+  timestamp = {Fri, 20 Oct 2017 13:43:43 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/sacrypt/SchwabeS16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/sacrypt/2016,
+  editor    = {Roberto Avanzi and
+               Howard M. Heys},
+  title     = {Selected Areas in Cryptography - {SAC} 2016 - 23rd International Conference,
+               St. John's, NL, Canada, August 10-12, 2016, Revised Selected Papers},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10532},
+  publisher = {Springer},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-319-69453-5},
+  doi       = {10.1007/978-3-319-69453-5},
+  isbn      = {978-3-319-69452-8},
+  timestamp = {Fri, 20 Oct 2017 13:43:28 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/sacrypt/2016},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/coco/Regev10,
+  author    = {Oded Regev},
+  title     = {The Learning with Errors Problem (Invited Survey)},
+  booktitle = {Proceedings of the 25th Annual {IEEE} Conference on Computational
+               Complexity, {CCC} 2010, Cambridge, Massachusetts, June 9-12, 2010},
+  pages     = {191--204},
+  year      = {2010},
+  crossref  = {DBLP:conf/coco/2010},
+  url       = {https://doi.org/10.1109/CCC.2010.26},
+  doi       = {10.1109/CCC.2010.26},
+  timestamp = {Tue, 23 May 2017 01:06:05 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/coco/Regev10},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/coco/2010,
+  title     = {Proceedings of the 25th Annual {IEEE} Conference on Computational
+               Complexity, {CCC} 2010, Cambridge, Massachusetts, June 9-12, 2010},
+  publisher = {{IEEE} Computer Society},
+  year      = {2010},
+  url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=5497049},
+  isbn      = {978-0-7695-4060-3},
+  timestamp = {Fri, 13 May 2016 10:27:12 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/coco/2010},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@inproceedings{DBLP:conf/stoc/Regev05,
+  author    = {Oded Regev},
+  title     = {On lattices, learning with errors, random linear codes, and cryptography},
+  booktitle = {Proceedings of the 37th Annual {ACM} Symposium on Theory of Computing,
+               Baltimore, MD, USA, May 22-24, 2005},
+  pages     = {84--93},
+  year      = {2005},
+  crossref  = {DBLP:conf/stoc/2005},
+  url       = {http://doi.acm.org/10.1145/1060590.1060603},
+  doi       = {10.1145/1060590.1060603},
+  timestamp = {Mon, 20 Mar 2017 15:33:56 +0100},
+  biburl    = {https://dblp.org/rec/bib/conf/stoc/Regev05},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/stoc/2005,
+  editor    = {Harold N. Gabow and
+               Ronald Fagin},
+  title     = {Proceedings of the 37th Annual {ACM} Symposium on Theory of Computing,
+               Baltimore, MD, USA, May 22-24, 2005},
+  publisher = {{ACM}},
+  year      = {2005},
+  isbn      = {1-58113-960-8},
+  timestamp = {Tue, 12 Jul 2005 13:48:39 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/stoc/2005},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@misc{cryptoeprint:2017:690,
+    author = {Po-Chun Kuo and Wen-Ding Li and Yu-Wei Chen and Yuan-Che Hsu and Bo-Yuan Peng and Chen-Mou Cheng and Bo-Yin Yang},
+    title = {High Performance Post-Quantum Key Exchange on {FPGAs}},
+    howpublished = {Cryptology ePrint Archive, Report 2017/690},
+    year = {2017},
+    note = {\url{https://eprint.iacr.org/2017/690}},
+}
+
+@inproceedings{alkim2016newhope,
+  title={{NewHope} on {ARM cortex-M}},
+  author={Alkim, Erdem and Jakubeit, Philipp and Schwabe, Peter},
+  booktitle={International Conference on Security, Privacy, and Applied Cryptography Engineering},
+  pages={332--349},
+  year={2016},
+  organization={Springer}
+}
+
+@article{oder2017implementing,
+  title={Implementing the {NewHope}-Simple Key Exchange on Low-Cost {FPGAs}},
+  author={Oder, Tobias and G{\"u}neysu, Tim},
+  journal={Progress in Cryptology--LATINCRYPT},
+  volume={2017},
+  year={2017}
+}
+
+@inproceedings{DBLP:conf/pkc/Lyubashevsky08,
+  author    = {Vadim Lyubashevsky},
+  title     = {Lattice-Based Identification Schemes Secure Under Active Attacks},
+  booktitle = {Public Key Cryptography - {PKC} 2008, 11th International Workshop
+               on Practice and Theory in Public-Key Cryptography, Barcelona, Spain,
+               March 9-12, 2008. Proceedings},
+  pages     = {162--179},
+  year      = {2008},
+  crossref  = {DBLP:conf/pkc/2008},
+  url       = {https://doi.org/10.1007/978-3-540-78440-1_10},
+  doi       = {10.1007/978-3-540-78440-1_10},
+  timestamp = {Fri, 02 Jun 2017 13:01:06 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pkc/Lyubashevsky08},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/pkc/2008,
+  editor    = {Ronald Cramer},
+  title     = {Public Key Cryptography - {PKC} 2008, 11th International Workshop
+               on Practice and Theory in Public-Key Cryptography, Barcelona, Spain,
+               March 9-12, 2008. Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {4939},
+  publisher = {Springer},
+  year      = {2008},
+  url       = {https://doi.org/10.1007/978-3-540-78440-1},
+  doi       = {10.1007/978-3-540-78440-1},
+  isbn      = {978-3-540-78439-5},
+  timestamp = {Fri, 02 Jun 2017 13:01:06 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/pkc/2008},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+

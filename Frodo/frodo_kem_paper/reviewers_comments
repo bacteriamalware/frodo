@@ -1,0 +1,321 @@
+Dear James Howe; Tobias Oder; Markus Krausz; Tim Güneysu,
+
+Attached to the end of this email, please find the initial
+reviewer comments for your paper
+
+"Standard Lattice-Based Key Encapsulation on Embedded Devices"
+
+as submitted to TCHES 2018 Issue 3.  
+
+No decisions have been made yet.  You have the opportunity
+to respond to the initial reviews via a rebuttal:
+
+- The main purpose of a rebuttal is to improve the quality 
+  and accuracy of reviews, and of the associated decision 
+  making process, by allowing the right of reply.
+
+- The rebuttal should focus on factual information rather
+  than opinion, and specifically address any questions in
+  the reviewer comments.  
+
+  Any additional content (e.g., improved results) is only
+  permissible as a way to put the submission or reviews 
+  into context; the final decision on your submission can 
+  only ever reflect content in the original submission.
+
+- Your rebuttal must be stand-alone: you cannot include a 
+  link, for example, to additional content or an updated 
+  version of your original submission.
+
+- You are not required to respond; there is definitively 
+  no explicit or implicit penalty for not responding.
+
+- The reviewers make their best effort to understand your 
+  work, within what is a very limited amount of time; the
+  initial comments are submitted without any coordination 
+  between reviewers.
+
+  As such, honest mistakes and inconsistencies are bound
+  to occur: please keep this in mind, and be constructive 
+  in your rebuttal as a result.
+
+- The length of a rebuttal is limited to 3000 characters;  
+  the purpose of this limit is to emphasise the need for 
+  focus and clarity.
+
+- If you want to refer to a specific reviewer (e.g., via
+  "reviewer 3" or similar), please treat the ordering in
+  this email as definitive: it matches the order visible 
+  to the reviewers, but might, for example, differ from 
+  the order used in the rebuttal web-page.
+
+- You can edit your rebuttal via
+
+  https://secure.iacr.org/websubrev/tches18_3/submit/rebuttal.php
+
+  You'll be asked for a user name and password: the user 
+  name is your submission number, and the password is the
+  one originally issued by the server when you submitted.
+
+- The submission deadline is 27/05/18 23:59:59 Anywhere 
+  on Earth (AoE).  
+
+  The check-box labelled "finalize my rebuttal" should be
+  used to submit your rebuttal once complete.  You *must*
+  do so before the deadline: the reviewers *only* see the
+  rebuttal once submitted.  Note that the server will not
+  send a confirmation email, and that, once submitted, it
+  is not possible to further update the rebuttal.
+
+- After the rebuttal period, the reviews *may* be updated 
+  to take into account of your response, but are *always*
+  considered either way.  Also note that we may also find 
+  it necessary to solicit additional reviews.
+
+- If you have any questions about or difficulties with any
+  of the above, please contact the (Co-)Editors in Chief.
+
+Sincerely,
+
+Dan and Matthieu: TCHES 2018 (Co-)Editors in Chief.
+
+===============================================================================
+
+This work seems to be the first implementation of FrodoKEM, targeting
+at FPGAs and microcontrollers.  It is exciting to practical
+evaluations of FrodoKEM, a submissions to NIST PQC standardization,
+within several months after NIST round 1 announcements.  Simple
+side-channel resistance is built into the implementations. Indeed,
+further techniques such as differential power analysis are more
+complicated to conduct due to little SNR on the multiplication
+instructions.  However, prior DPA attacks targeting on multipliers do
+exist and the authors might have discussed it further.
+
+The results are not very encouraging for the ARM Cortex M4 platform.
+The latency of the author's ARM implementation is about 120 times
+worse comparing to Ring-LWE-based scheme New Hope.  Although it is
+a common belief that LWE-based scheme would be slower than
+RLWE-based scheme, Frodo is only around 10 times slower than
+New Hope or Kyber in other platforms (including the NEON and AVX2
+implementation[1][2][3] and the FPGA implementation in this same paper).
+
+[1] https://frodokem.org/files/FrodoKEM-specification-20171130.pdf
+[2] https://eprint.iacr.org/2017/388.pdf
+[3] https://cryptojedi.org/papers/newhopenist-20171128.pdf
+
+
+I do find the claim that, "lattice-based cryptography benefits from
+the strong security notion of worst-case to average-case hardness,
+meaning average-case instances are at least as hard as worst-case
+instances of related lattice problems" to be a serious oversell.
+Please insert a "(much smaller)" after "related".  I believe that
+there is no current set of parameters proposed where the security
+reduction theorems yield a "proven" security level assuming that we do
+not make a breakthrough on lattice problems.
+
+Moreover, given that FPGA and microcontroller implementations are much
+slower than (say) NewHope, an explanation is surely in order.   It is
+acceptable to state that the intrinsic complexity of the two algorithms
+are different.  Nevertheless, pure qualitative explanations on the issue
+seems insufficient. It is strongly urged to add a comparative survey on
+previous work discussing, say, the algorithmic difference between
+FrodoKEM and NewHope.  Comparing and explaining the ratio gives a more
+persuasive evidence on the performance loss.
+
+Editorially:
+
+A simple but clear block diagram depicts the architecture
+of the FPGA implementation. The thorough analysis on memory also
+reduces the usage to the least possible level. However, it would have
+made the text more complete to add the resource utilization report for
+sub-modules.  Readers may then have a better insight on the proportion
+taken by different blocks.
+
+By the way, there is a "TODO" in line 1 of page 8.
+
+========================================================================
+
+The paper provides both FPGA and ARM implementations of FrodoKEM. Unlike other
+KEM schemes, Frodo does not rely on Ideal lattices. Consequently, there is a
+fundamental drop in performances compared to Ideal lattice-based schemes, but
+with a higher confidence regarding post-quantum security at this point.
+Regarding implementation results, authors observe a slow-down of 1 order of
+magnitude on FPGA, and 2 orders of magnitude on ARM compared to the
+ideal-lattice scheme NewHope.
+
+Main remarks:
+The contribution of the paper is fair, however the implementation results are
+not particularly attractive because they are compared to Ideal-lattices. At
+this point, there is no particular attacks regarding ideal-lattices, but there
+is no guarantee that the specific structure cannot be exploited in the
+future.
+The only concern I have is about FPGA implementation, which I think lacks
+precision regarding the distinction between
+Kegen/encapsulation/decapsulation.
+
+Additional remarks:
+- The title is not indicative enough of the paper content, as the paper only
+focuses on FrodoKEM.
+- Section 2.5: “To be resistant against side-channel attacks, the sampler
+iterates over the entire table D ...” -> A constant time behavior only
+provides some counter-measures regarding timing attacks, but the fact that the
+computation time is well-know (for the attacker), the synchronization of an
+attacker regarding side channel leakage (power consumption, EM,...) is also
+greatly
+simplified. Thus, I would be more conservative regarding this sentence.
+- Regarding the computation of AS’ (encapsulation) and S’A (decapsulation)
+in FPGA: I understand why A can be computed on-the-fly for the product AS’,
+but it is not how S’A has been computed with the proposed architecture. Are
+there two independent designs, one for the encapsulation, the other for
+decapsulation? If not, how do you manage both computations in the same
+architecture?
+- Section 4.4 : Same remark than 2).
+
+Minor remark:
+- Line 229: There is a remaining "TODO".
+
+========================================================================
+
+This paper deals with the efficient implementation of the post-quantum
+lattice-based scheme FrodoKEM on embedded devices. For this, the authors
+present implementations for a low-cost FPGA (they report results for a Xilinx
+Artix-7 XC7A35T FPGA) and a popular ARM Cortex-M4 microncontroller (they
+target a 32-bit ARM Cortex-M4F microprocessor on a STM32F407 Discovery board).
+The results are promising and show the feasibility of porting a conservative
+post-quantum scheme like FrodoKEM on small devices. This topic is highly
+relevant for the current standardization process led by NIST. The paper is
+well written for the most part but still requires a thorough polishing and
+proofreading before publication. Here below are some detailed comments in that
+direction:   
+
+Keywords: avoid capitalization for non-proper nouns.
+Line 32: should use generic examples such as ECC instead of DSA/ECDSA.
+Line 43: "involves very simple..."
+Line 70: "Another design rationale for Frodo is simplicity,...".
+Line 71: the statement "more efficient in comparison to NewHope" is
+problematic here. Maybe, the authors mean to say that Frodo's parameter sets
+are more flexible, easier to scale and support simpler implementations.
+Line 77: "little effort has been spent on researching the feasibility of
+FrodoKEM on embedded devices". AFAIK there are no studies on this subject, so
+you can claim to be the first effort in researching the feasibility of
+FrodoKEM on embedded devices. This needs to be differentiated from
+implementations of similar, yet different, standard lattice-based encryption
+schemes like [HMO+16]. Accordingly, Line 87 should be adjusted to "Previous
+work on the evaluation of ...".  
+Line 84: "while not deteriorating..."
+Line 99: "mathematical problems other than lattices..."
+Line 114: "where the remaining operations..."
+Line 116: what is said in the previous sentences that guarantee the execution
+in constant-time?
+Section 1.2: should mention details of targeted platforms when giving explicit
+timings and resource usage (e.g., FPGA model and ARM processor, including
+operating frequency details).
+Line 172: that the pk is added to the sk is due to a constraint in the API
+designated by NIST, which does not allow to pass pk separately to the
+decapsulation function (so this doesn't have anything to do with the CCA
+security).
+Line 183: Frodo -> FrodoKEM, for the two cases in the line.
+Line 203: "to be resistant against timing side-channel attacks" (maybe, simple
+side-channel attacks can also be included here).
+Line 229: there is a "TODO" there. Does the description in those lines
+correspond to what is currently implemented and reported?
+Line 396: discus -> discuss 
+Section 5.1: how is it possible that the choice of AES or cSHAKE does not
+affect the cycle count? please explain.
+Line 425: "the BRAM usage is significantly larger..."
+Section 5.1: should mention somewhere the security reason for using a fresh
+matrix A at each connection (relevant when comparing with [HMO+16]).
+Section 5.2: have you tried running the software at a smaller operating
+frequency. Some Cortex-M4 based boards are known to vary (and improve) cycle
+performance at smaller frequencies. For example, see
+https://ches.2017.rump.cr.yp.to/fe534b32e52fcacee026786ff44235f0.pdf
+
+========================================================================
+
+This paper describes two implementations of the post-quantum proposal
+FrodoKEM: one on FPGA and the other on microcontrollers.  FrodoKEM's main
+operations are generated a large matrix uniformly at random; generating a
+medium-sized matrix of Gaussians; and multiplying the two together.
+
+A major challenge in embedded implementations of Frodo is its large memory
+usage, because it involves eg a 976x976 x 976x8 matrix multiplication at
+16-bit precision.  Naively this would use almost 2MB of RAM, but generating
+the large matrix on the fly can reduce the RAM usage significantly.  This
+paper reduces the submission implementation's 192 kB of RAM by a factor of
+about 3 by careful management of what is stored and what is generated on the
+fly.
+
+I have some trouble believing that the FPGA implementation of key generation
+takes *exactly* 976*976*8 cycles, which is exactly the number of element
+multiplications.  Are you counting throughput, and thus ignoring pipeline
+latency?  Even so, is the core pipelined perfectly so that a second operation
+can follow *immediately* after the first?  Achieving zero overhead would be
+pretty interesting in itself.
+
+For the FPGA design, I would have expected to see a parallel version of the
+core as well as a completely serial one.  The largest operation (Frodo-976
+decaps) uses 55 kilobytes of memory, which weighs hundreds of times more than
+a 16x16 MAC unit.  The prospect of doubling (or quadding, or ...) the speed of
+the computation with a few % area investment, and probably improving energy
+efficiency as well, would be tempting for many ASIC customers.  This is
+especially the case because Frodo isn't exactly fast in the first place.
+
+It would also be interesting to see the breakdown of timing and area for the
+different components: Gaussian sampler, control logic, cSHAKE etc.  This is
+particularly important because, if other reports are anything to go by, cSHAKE
+probably occupies almost a thousand slices on ARTIX-7, and it must certainly
+take at least 1600 flip-flops since a RAM implementation would be too slow. 
+That means that about half the logic area is only CSHAKE, so the multiplier
+and Gaussian sampler are quite slim.  This is possible though, because the
+multiplier is mostly just a DSP unit and some muxes.
+
+This paper does not discuss side-channel attacks other than the timing
+channel.
+
+I would be interested to see the code size for the microcontroller
+implementation as well as the RAM usage.
+
+Overall, this paper is a somewhat unexciting implementation report, and it
+seems not entirely baked.  It is especially unexciting because Frodo is
+predictably quite slow, uses a lot of memory (though the authors have managed
+to reduce this somewhat), and doesn't have many optimization opportunities. 
+We certainly need implementation reports for the post-quantum standardization
+effort.  Therefore I recommend that it be accepted after a revision to provide
+more detail about the FPGA results, and perhaps a parallel implementation; or
+eprinted or submitted to another journal.
+
+Typos:
+Line 70, rational -> rationale
+Line 468, reduced -> reduce
+229: TODO needs to be cleared
+
+========================================================================
+
+This paper has two main contributions: a FPGA and an ARM implementations of
+FrodoKEM, a (general) lattice-based key encapsulation mechanism submitted to
+NIST post-quantum standardization effort. FrodoKEM is a very interesting
+candidate because it does not use ring-LWE but the plain LWE problem. Both
+implementations implement the four parameters of FrodoKEM (dimensions 640 or
+976, AES or SHAKE) and are running in constant time. The FPGA part is quite
+succinct and the ARM section is quite complete. This is a nice contribution
+that merits publication at CHES.
+
+Remarks:
+- The paper should be careful about using Frodo versus FrodoKEM (cf. abstract:
+Frodo is not a submission to NIST, FrodoKEM is...; see Tables; see line 95 and
+others), and which version of NewHope it is talking about. I would recommend
+to revisit EVERY time such schemes are mentioned and ALWAYS specify which
+version you are talking about.
+- Table 4 should indicate that it is the cSHAKE variant. More generally, the
+Frodo mentioned does not exist: the actual names include either AES or cSHAKE
+- Table 7 is quite incomplete. What about the other FrodoKEM? WHat about
+Kyber768 that comes by default in pqmu for CortexM4?
+- [DucasDurmusLepointLyubashevsky'13] should probably be cited line 59
+- line 156: it's not "high enough parameters": there is a quite complex
+balance between q and n
+- line 229: there is a TODO
+- l263-264: what is an anonymous Gaussian? It's not Gaussian by the way, just
+close to a Gaussian
+
+===============================================================================
+

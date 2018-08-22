@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: example.aux
+The style file: alpha.bst
+Database file #1: paper.bib.bib
+"{" immediately follows a field part---line 11 of file paper.bib.bib
+ :   url =       \url
+ :                   {https://www.forbes.com/sites/forbestechcouncil/2018/04/18/worse-than-y2k-quantum-computing-and-the-end-of-privacy/#5f5e2ceb4829},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 27 of file paper.bib.bib
+ :   url =       \url
+ :                   {http://www.wired.co.uk/article/quantum-computers-quantum-security-encryption},
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 45 of file paper.bib.bib
+ :   url =       \url
+ :                   {https://www.newscientist.com/article/mg23731670-800-unbreakable-the-race-to-protect-our-secrets-from-quantum-hacks/},
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in pqm4
+You've used 6 entries,
+            2543 wiz_defined-function locations,
+            597 strings with 5989 characters,
+and the built_in function-call counts, 3136 in all, are:
+= -- 306
+> -- 200
+< -- 2
++ -- 74
+- -- 74
+* -- 240
+:= -- 513
+add.period$ -- 21
+call.type$ -- 6
+change.case$ -- 54
+chr.to.int$ -- 6
+cite$ -- 8
+duplicate$ -- 103
+empty$ -- 197
+format.name$ -- 76
+if$ -- 643
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 4
+newline$ -- 35
+num.names$ -- 15
+pop$ -- 66
+preamble$ -- 1
+purify$ -- 60
+quote$ -- 0
+skip$ -- 89
+stack$ -- 0
+substring$ -- 148
+swap$ -- 30
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 48
+warning$ -- 1
+while$ -- 23
+width$ -- 9
+write$ -- 81
+(There were 3 error messages)

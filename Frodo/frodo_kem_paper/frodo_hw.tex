@@ -1,0 +1,106 @@
+% This is LLNCS.DEM the demonstration file of
+% the LaTeX macro package from Springer-Verlag
+% for Lecture Notes in Computer Science,
+% version 2.4 for LaTeX2e as of 16. April 2010
+%
+\documentclass{iacrtrans}
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{relsize}
+\usepackage[utf8]{inputenc}
+\usepackage[compatibility=false]{caption}
+\usepackage{subcaption}
+\usepackage{pgf}
+\usepackage{tikz}
+\usetikzlibrary{arrows,automata}
+\usepackage{tikz-timing}
+\usepackage{todonotes}
+\usepackage{tabularx}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage[hyphens]{url}
+\usepackage{hyperref}
+\hypersetup{breaklinks=true}
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{cite}
+\usepackage{units}
+%\usepackage{algpseudocode}
+%\usepackage{algorithm2e}
+%\usepackage[]{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{bm}
+\usepackage{mathtools}
+\usepackage{theorem}
+\usepackage{mathrsfs}
+\usepackage{listings}
+\usepackage{cleveref}
+\usepackage{pifont}
+%\usepackage{refcheck}
+\algnewcommand{\AND}{\algorithmicand}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+\newcommand{\eqd}{\ensuremath{=_{\mathrm{\scriptscriptstyle def}}}}
+\newcommand{\Z}{\ensuremath{\mathbb Z}}
+\newcommand\myE[1]{\ensuremath\mathbb{E}\left\lbrack #1 \right\rbrack} % The expectation (or mean, or esperance)
+\newcommand\myV[1]{\ensuremath\mathsf{Var}\left\lbrack #1 \right\rbrack} % The variance
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\setcounter{secnumdepth}{3}
+
+
+\newcommand{\stodo}[1]{\todo[inline,caption={}]{TODO: #1}}
+\newcommand{\minus}{\scalebox{0.75}[1.0]{$-$}}
+
+
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{corollary}[theorem]{Corollary}
+%\newtheorem{definition}[theorem]{Definition}
+%\newtheorem{property}[theorem]{Property}
+%\newtheorem{lemma}[theorem]{Lemma}
+
+%%%% Special environments
+%\newenvironment{proof}{\noindent \textbf{Proof}}{\qed \vskip 1em}
+%\newcommand{\qed}{\hfill \ensuremath{\Box}}
+
+%
+\begin{document}
+%
+
+\title{Standard Lattice-Based Key Encapsulation\\ on Embedded Devices}
+
+\author{
+James Howe\textsuperscript{1}, Tobias Oder\textsuperscript{2}, Markus Krausz\textsuperscript{2}, and Tim G\"uneysu\textsuperscript{2,3}
+}
+
+\institute{
+\textsuperscript{1}Department of Computer Science, University of Bristol, UK \texttt{james.howe@bristol.ac.uk}\\
+\textsuperscript{2}Horst G\"ortz Institute for IT Security, Ruhr-Universit\"at Bochum, Germany \texttt{\{tobias.oder,markus.krausz,tim.gueneysu\}@rub.de}\\
+\textsuperscript{3}DFKI, Germany\\
+}
+
+\keywords{Post-quantum cryptography, standard lattices, Frodo, KEM, FPGA, microcontroller, embedded security, hardware security.}
+
+\maketitle
+
+\input{tex/abstract}
+\input{tex/intro}
+\input{tex/background}
+\input{tex/hw_impl}
+\input{tex/sw_impl}
+\input{tex/results}
+\input{tex/conclusions}
+
+\section*{Acknowledgement}
+This research was supported in part by the European Union Horizon 2020 SAFEcrypto project (grant no. 644729) and by EPSRC via grant EP/N011635/1. We would also like to thank the anonymous reviewers for their very valuable and helpful feedback.
+
+
+\bibliographystyle{alpha}
+\bibliography{paper,references}
+
+\end{document}

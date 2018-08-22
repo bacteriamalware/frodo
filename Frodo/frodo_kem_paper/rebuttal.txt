@@ -1,0 +1,25 @@
+﻿We would like to thank all reviewers for their helpful feedback! We intend to reflect the feedback in our paper as follows:
+
+Reviewer 1: 
+- We agree that the statement about lattice security reductions is inaccurate and will fix it according to the reviewers recommendation.
+- We will add a discussion about more sophisticated side-channel attacks and countermeasures.
+- We will also add FPGA results for the submodules of Frodo (cf. review 4). 
+- Regarding a comparative survey on differences between FrodoKEM and NewHope, we want to highlight that there are multiple Ring-LWE-based key exchange submissions to NIST (HILA5, Ding, ...). Nevertheless, there has been little research into lattice-based KEX or KEM on FPGA and microcontrollers, hence our options are limited for comparing to previous work.
+- We want to stress that when comparing implementations, one has to take into account the optimization goal. Beside performance, the memory/area requirements of an implementation are of major relevance. E.g., there is an FPGA implementation of NewHope on ePrint [1] that is much faster (and much larger) than the one from [OG17] to which we compare our work to. When comparing our work to [1], the slow-down factor of Frodo would be ~250. But the performance gain is payed for in FPGA resources. We also want to stress that memory is in particular important for microcontrollers as a straight-forward porting of Frodo-976 would not fit into the microcontrollers memory. In comparison to the reference implementation we use only one third of the memory.
+
+Reviewer 2: 
+- There are three separate designs for keygen, encaps, and decaps. Due to the similarities in these modules, we describe the hardware design of encaps. The differences between these modules will be made more explicit in the final version.
+- Section 2.5: We will make it more clear that this only refers to timing side-channels.
+- In Encaps and Decaps the operations is always S’A (not AS’). Therefore both algorithms can be performed with the same architecture.
+
+Reviewer 3: 
+- Line 116: Each multiplication takes 1 clock cycle, and the runtime of each operation takes exactly the number of required multiplications, the remaining operations run in parallel. 
+- Line 229: Yes, we implemented vector-matrix multiplication, instead of matrix-matrix multiplication.
+- Section 5.1: The choice of AES or cSHAKE does not affect the cycle counts because this module runs in parallel to the multiplication core and is thus not part of the critical path.
+
+Reviewer 4: 
+- A second operation can follow immediately after the first. This is easily possible because the inputs are based on a simple always increasing address counter.
+- The cSHAKE component takes up ~1685 flip-flops (2.7k LUTs / 0.7k slices) and we use two cSHAKEs in the design.
+- We think that comparing parallel vs serial implementations is out-of-scope for this work, but we consider it for future work.
+
+[1] https://ia.cr/2017/690
