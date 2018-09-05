@@ -15,6 +15,16 @@ Erdem Alkim, Philipp Jakubeit, and Peter Schwabe.
 \newblock In {\em International Conference on Security, Privacy, and Applied
   Cryptography Engineering}, pages 332--349. Springer, 2016.
 
+\bibitem[BCD{\etalchar{+}}16]{DBLP:conf/ccs/BosCDMNNRS16}
+Joppe~W. Bos, Craig Costello, L{\'{e}}o Ducas, Ilya Mironov, Michael Naehrig,
+  Valeria Nikolaenko, Ananth Raghunathan, and Douglas Stebila.
+\newblock Frodo: Take off the ring! practical, quantum-secure key exchange from
+  {LWE}.
+\newblock In Edgar~R. Weippl, Stefan Katzenbeisser, Christopher Kruegel,
+  Andrew~C. Myers, and Shai Halevi, editors, {\em Proceedings of the 2016 {ACM}
+  {SIGSAC} Conference on Computer and Communications Security, Vienna, Austria,
+  October 24-28, 2016}, pages 1006--1018. {ACM}, 2016.
+
 \bibitem[DHH{\etalchar{+}}15]{DBLP:journals/dcc/DullHHHPSS15}
 Michael D{\"{u}}ll, Bj{\"{o}}rn Haase, Gesine Hinterw{\"{a}}lder, Michael
   Hutter, Christof Paar, Ana~Helena S{\'{a}}nchez, and Peter Schwabe.
@@ -38,5 +48,13 @@ Tobias Oder and Tim G{\"u}neysu.
 {pqm4} - post-quantum crypto library for the {ARM Cortex-M4}.
 \newblock \url{https://github.com/mupq/pqm4}.
 \newblock Accessed: 2018-04-12.
+
+\bibitem[SS16]{DBLP:conf/sacrypt/SchwabeS16}
+Peter Schwabe and Ko~Stoffelen.
+\newblock All the {AES} you need on {Cortex-M3} and {M4}.
+\newblock In Roberto Avanzi and Howard~M. Heys, editors, {\em Selected Areas in
+  Cryptography - {SAC} 2016 - 23rd International Conference, St. John's, NL,
+  Canada, August 10-12, 2016, Revised Selected Papers}, volume 10532 of {\em
+  Lecture Notes in Computer Science}, pages 180--194. Springer, 2016.
 
 \end{thebibliography}

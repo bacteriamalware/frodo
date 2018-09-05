@@ -126,7 +126,7 @@
                Francesco Regazzoni and
                Tim G{\"{u}}neysu and
                K. Beeden},
-  title     = {Standard lattices in hardware},
+  title     = {Lattice-based encryption over standard lattices in hardware},
   booktitle = {Proceedings of the 53rd Annual Design Automation Conference, {DAC}
                2016, Austin, TX, USA, June 5-9, 2016},
   pages     = {162:1--162:6},

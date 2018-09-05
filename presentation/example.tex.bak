@@ -32,7 +32,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title[]{Standard Lattice-Based Key Encapsulation on Embedded Devices}
-%\subtitle{Subtitle}
+%\subtitle{FrodoKEM on ARM and Artix}
 \author{\underline{James Howe}$^\dagger$, Tobias Oder$^\ddagger$, Markus Krausz$^\ddagger$, and Tim G\"uneysu$^{\ddagger *}$.}
 \institute{$^\dagger$University of Bristol, UK; $^\ddagger$Ruhr-Universit\"at Bochum, Germany;\\ and $^{*}$DFKI, Germany.}
 \date{11 September 2018}
@@ -48,8 +48,8 @@
 
 \begin{minipage}{0.64\textwidth}
   \begin{itemize}%[<+->]
-\item Motivation
 \item \sout{Post-quantum cryptography and LWE}
+\item Motivation
 \item Introduction to Frodo  
 \item Microcontroller design
 \item Hardware design
@@ -268,7 +268,7 @@ These qualities are appealing for practitioners;
 \centering
 \footnotesize
 \caption{The \textsf{FrodoKEM} encapsulation (shortened)} \label{alg:decaps}
-  \begin{algorithmic}
+  \begin{algorithmic}[1]
     \Procedure{Encaps}{$pk=\text{seed}_\mathbf{A} || \mathbf{b}$}
 	\State Choose a uniformly random key $\mu \leftarrow U(\{0,1\}^{\text{len}_\mu})$
 	\State Generate pseudo-random values $\text{seed}_\mathbf{E} || \mathbf{k} || \mathbf{d} \leftarrow G(pk || \mu)$
@@ -370,7 +370,7 @@ Contribution overview:
 
 \item Utilises constant runtime to protect against simple side-channel analysis.
 
-\item \textsf{FrodoKEM-640} has a total execution time of 836 ms.
+\item \textsf{FrodoKEM-640} has a total execution time of 836 ms, running at 168 MHz.
 
 \end{itemize}
 \end{frame}
@@ -384,16 +384,16 @@ Contribution overview:
 	\begin{column}{0.45\textwidth}
 		\begin{figure}
 		\includegraphics[scale=0.33]{frodo_flowchart_encaps}
-		\caption{Flowchart of the encapsulation.}
+		\caption{FrodoKEM encaps flowchart.}
 		\end{figure}
     \end{column}
     \begin{column}{0.55\textwidth}
     \hspace{-3.5cm}
 		\begin{itemize}
 		\item We analysed the memory occupancy during each operation.
-		\item Reusing already allocated memory wherever possible to 
-		\item Minimizing the memory usage for all designs.		
-		
+		\item Wherever possible, reusing already allocated memory. 
+		\item This minimised the memory usage for all designs.		
+		\item Memory usage for AES versions much simpler than for cSHAKE versions.
 		\end{itemize}
     \end{column}
 \end{columns}
@@ -406,6 +406,8 @@ Contribution overview:
 
 \begin{itemize}
 \item Clear difference between AES and cSHAKE implementations.
+
+\item Due to more efficent AES \cite{DBLP:conf/sacrypt/SchwabeS16}, cSHAKE needs load/save from RAM.
 
 \item Outperforms other Frodo design, but much slower than Kyber / NewHope.
 
@@ -482,7 +484,7 @@ Contribution overview:
 \item Generates future random values in parallel, minimising delays between vector-matrix multiplications.
 \item Hybrid pre-calculated / on-the-fly memory management is used, which continuously updates previous values.
 \item Ensures constant runtime by parallelising other modules with multiplication.
-\item \textsf{FrodoKEM-640} has a total execution time of 60 ms.
+\item \textsf{FrodoKEM-640} has a total execution time of 60 ms, running at 167MHz.
 
 %\item \textsf{FrodoKEM-640} takes 266 ms for key generation, 284 ms for encapsulation, 286 ms for decapsulation, resulting in a total execution time of 836 ms for a full run of the protocol.
 
@@ -591,7 +593,7 @@ Error+AES Sampler$^*$ & 1901/1140 & 756 & 0 & 0 & 184 & 184m \\
 
 \item Memory optimisations for microcontrollers show 66\% savings vs reference design and 40\% vs optimised PQM4 design.
 
-%\item FrodoKEM is 
+\item It would be interesting to see results for Frodo on FPGA with increased multipliers. As well as how it performs vs. other NIST PQC candidates.
 
 \end{itemize}
 

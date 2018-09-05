@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.27)  22 AUG 2018 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.27)  5 SEP 2018 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1267,17 +1267,12 @@ Overfull \vbox (1.41452pt too high) detected at line 292
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 6.02pt on input line 358.
-
-
-LaTeX Warning: Citation `DBLP:conf/ccs/BosCDMNNRS16' on page 8 undefined on inp
-ut line 358.
-
-<frodo1.jpg, id=90, 763.85374pt x 1027.84pt>
+<frodo1.jpg, id=91, 763.85374pt x 1027.84pt>
 File: frodo1.jpg Graphic file (type jpg)
 <use frodo1.jpg>
 Package pdftex.def Info: frodo1.jpg  used on input line 358.
 (pdftex.def)             Requested size: 76.38985pt x 102.79001pt.
-[8
+ [8
 
  <./frodo1.jpg>] [9
 
@@ -1287,13 +1282,13 @@ Package epstopdf Info: Source file: <frodo_flowchart_encaps.eps>
 (epstopdf)                    size: 39786 bytes
 (epstopdf)             Output file: <frodo_flowchart_encaps-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-08-22 12:59:27
-(epstopdf)                    size: 13324 bytes
+(epstopdf)                    date: 2018-07-18 14:15:09
+(epstopdf)                    size: 13411 bytes
 (epstopdf)             Command: <repstopdf --outfile=frodo_flowchart_encaps-eps
 -converted-to.pdf frodo_flowchart_encaps.eps>
 (epstopdf)             \includegraphics on input line 401.
 Package epstopdf Info: Output file is already uptodate.
-<frodo_flowchart_encaps-eps-converted-to.pdf, id=103, 448.67625pt x 402.50375pt
+<frodo_flowchart_encaps-eps-converted-to.pdf, id=105, 448.67625pt x 402.50375pt
 >
 File: frodo_flowchart_encaps-eps-converted-to.pdf Graphic file (type pdf)
 <use frodo_flowchart_encaps-eps-converted-to.pdf>
@@ -1306,26 +1301,30 @@ Overfull \vbox (6.66805pt too high) detected at line 401
 
 [10
 
- <./frodo_flowchart_encaps-eps-converted-to.pdf>] [11
+ <./frodo_flowchart_encaps-eps-converted-to.pdf>]
+Overfull \vbox (3.01822pt too high) detected at line 440
+ []
+
+[11
 
 ] [12
 
 ] [13
 
 ]
-<FPGA_encaps.png, id=146, 512.04883pt x 255.9763pt>
+<FPGA_encaps.png, id=150, 512.04883pt x 255.9763pt>
 File: FPGA_encaps.png Graphic file (type png)
 <use FPGA_encaps.png>
-Package pdftex.def Info: FPGA_encaps.png  used on input line 501.
+Package pdftex.def Info: FPGA_encaps.png  used on input line 503.
 (pdftex.def)             Requested size: 256.02379pt x 127.98782pt.
 
-Overfull \vbox (0.82922pt too high) detected at line 501
+Overfull \vbox (0.82922pt too high) detected at line 503
  []
 
 [14
 
  <./FPGA_encaps.png>]
-Overfull \vbox (7.5204pt too high) detected at line 581
+Overfull \vbox (7.5204pt too high) detected at line 583
  []
 
 [15
@@ -1333,479 +1332,482 @@ Overfull \vbox (7.5204pt too high) detected at line 581
 ] [16
 
 ]
-<Frodo_Doom.png, id=173, 1365.1pt x 566.115pt>
+<Frodo_Doom.png, id=177, 1365.1pt x 566.115pt>
 File: Frodo_Doom.png Graphic file (type png)
 <use Frodo_Doom.png>
-Package pdftex.def Info: Frodo_Doom.png  used on input line 615.
+Package pdftex.def Info: Frodo_Doom.png  used on input line 617.
 (pdftex.def)             Requested size: 204.75616pt x 84.91357pt.
  [17
 
  <./Frodo_Doom.png>]
-<gollum/727f4870d47c42dbfe564b92f35209e0-0.png, id=180, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-0.png, id=184, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-0.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-0.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-0.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-0.png> <a0,fr0>
-<gollum/727f4870d47c42dbfe564b92f35209e0-1.png, id=189, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-1.png, id=193, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-1.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-1.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-1.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-1.png> <a0,fr1>
-<gollum/727f4870d47c42dbfe564b92f35209e0-2.png, id=198, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-2.png, id=202, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-2.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-2.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-2.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-2.png> <a0,fr2>
-<gollum/727f4870d47c42dbfe564b92f35209e0-3.png, id=207, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-3.png, id=211, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-3.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-3.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-3.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-3.png> <a0,fr3>
-<gollum/727f4870d47c42dbfe564b92f35209e0-4.png, id=216, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-4.png, id=220, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-4.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-4.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-4.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-4.png> <a0,fr4>
-<gollum/727f4870d47c42dbfe564b92f35209e0-5.png, id=225, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-5.png, id=229, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-5.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-5.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-5.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-5.png> <a0,fr5>
-<gollum/727f4870d47c42dbfe564b92f35209e0-6.png, id=234, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-6.png, id=238, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-6.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-6.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-6.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-6.png> <a0,fr6>
-<gollum/727f4870d47c42dbfe564b92f35209e0-7.png, id=243, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-7.png, id=247, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-7.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-7.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-7.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-7.png> <a0,fr7>
-<gollum/727f4870d47c42dbfe564b92f35209e0-8.png, id=252, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-8.png, id=256, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-8.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-8.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-8.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-8.png> <a0,fr8>
-<gollum/727f4870d47c42dbfe564b92f35209e0-9.png, id=261, 301.125pt x 130.4875pt>
+<gollum/727f4870d47c42dbfe564b92f35209e0-9.png, id=265, 301.125pt x 130.4875pt>
 
 File: gollum/727f4870d47c42dbfe564b92f35209e0-9.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-9.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-9.png  used on
- input line 631.
+ input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-9.png> <a0,fr9>
-<gollum/727f4870d47c42dbfe564b92f35209e0-10.png, id=270, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-10.png, id=274, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-10.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-10.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-10.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-10.png> <a0,fr10>
-<gollum/727f4870d47c42dbfe564b92f35209e0-11.png, id=279, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-11.png, id=283, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-11.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-11.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-11.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-11.png> <a0,fr11>
-<gollum/727f4870d47c42dbfe564b92f35209e0-12.png, id=288, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-12.png, id=292, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-12.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-12.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-12.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-12.png> <a0,fr12>
-<gollum/727f4870d47c42dbfe564b92f35209e0-13.png, id=297, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-13.png, id=301, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-13.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-13.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-13.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-13.png> <a0,fr13>
-<gollum/727f4870d47c42dbfe564b92f35209e0-14.png, id=306, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-14.png, id=310, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-14.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-14.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-14.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-14.png> <a0,fr14>
-<gollum/727f4870d47c42dbfe564b92f35209e0-15.png, id=315, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-15.png, id=319, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-15.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-15.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-15.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-15.png> <a0,fr15>
-<gollum/727f4870d47c42dbfe564b92f35209e0-16.png, id=324, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-16.png, id=328, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-16.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-16.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-16.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-16.png> <a0,fr16>
-<gollum/727f4870d47c42dbfe564b92f35209e0-17.png, id=333, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-17.png, id=337, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-17.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-17.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-17.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-17.png>
 <a0,fr17>
-<gollum/727f4870d47c42dbfe564b92f35209e0-18.png, id=342, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-18.png, id=346, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-18.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-18.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-18.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-18.png> <a0,fr18>
-<gollum/727f4870d47c42dbfe564b92f35209e0-19.png, id=351, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-19.png, id=355, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-19.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-19.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-19.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-19.png> <a0,fr19>
-<gollum/727f4870d47c42dbfe564b92f35209e0-20.png, id=360, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-20.png, id=364, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-20.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-20.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-20.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-20.png> <a0,fr20>
-<gollum/727f4870d47c42dbfe564b92f35209e0-21.png, id=369, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-21.png, id=373, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-21.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-21.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-21.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-21.png> <a0,fr21>
-<gollum/727f4870d47c42dbfe564b92f35209e0-22.png, id=378, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-22.png, id=382, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-22.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-22.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-22.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-22.png> <a0,fr22>
-<gollum/727f4870d47c42dbfe564b92f35209e0-23.png, id=387, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-23.png, id=391, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-23.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-23.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-23.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-23.png> <a0,fr23>
-<gollum/727f4870d47c42dbfe564b92f35209e0-24.png, id=396, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-24.png, id=400, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-24.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-24.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-24.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-24.png> <a0,fr24>
-<gollum/727f4870d47c42dbfe564b92f35209e0-25.png, id=405, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-25.png, id=409, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-25.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-25.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-25.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-25.png> <a0,fr25>
-<gollum/727f4870d47c42dbfe564b92f35209e0-26.png, id=414, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-26.png, id=418, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-26.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-26.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-26.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-26.png>
 <a0,fr26>
-<gollum/727f4870d47c42dbfe564b92f35209e0-27.png, id=423, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-27.png, id=427, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-27.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-27.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-27.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-27.png> <a0,fr27>
-<gollum/727f4870d47c42dbfe564b92f35209e0-28.png, id=432, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-28.png, id=436, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-28.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-28.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-28.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-28.png> <a0,fr28>
-<gollum/727f4870d47c42dbfe564b92f35209e0-29.png, id=441, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-29.png, id=445, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-29.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-29.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-29.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-29.png> <a0,fr29>
-<gollum/727f4870d47c42dbfe564b92f35209e0-30.png, id=450, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-30.png, id=455, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-30.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-30.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-30.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-30.png> <a0,fr30>
-<gollum/727f4870d47c42dbfe564b92f35209e0-31.png, id=460, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-31.png, id=464, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-31.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-31.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-31.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-31.png> <a0,fr31>
-<gollum/727f4870d47c42dbfe564b92f35209e0-32.png, id=469, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-32.png, id=473, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-32.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-32.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-32.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-32.png> <a0,fr32>
-<gollum/727f4870d47c42dbfe564b92f35209e0-33.png, id=478, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-33.png, id=482, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-33.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-33.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-33.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-33.png> <a0,fr33>
-<gollum/727f4870d47c42dbfe564b92f35209e0-34.png, id=487, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-34.png, id=491, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-34.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-34.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-34.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-34.png> <a0,fr34>
-<gollum/727f4870d47c42dbfe564b92f35209e0-35.png, id=496, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-35.png, id=500, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-35.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-35.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-35.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-35.png>
 <a0,fr35>
-<gollum/727f4870d47c42dbfe564b92f35209e0-36.png, id=505, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-36.png, id=509, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-36.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-36.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-36.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-36.png> <a0,fr36>
-<gollum/727f4870d47c42dbfe564b92f35209e0-37.png, id=514, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-37.png, id=518, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-37.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-37.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-37.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-37.png> <a0,fr37>
-<gollum/727f4870d47c42dbfe564b92f35209e0-38.png, id=523, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-38.png, id=527, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-38.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-38.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-38.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-38.png> <a0,fr38>
-<gollum/727f4870d47c42dbfe564b92f35209e0-39.png, id=532, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-39.png, id=536, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-39.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-39.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-39.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-39.png> <a0,fr39>
-<gollum/727f4870d47c42dbfe564b92f35209e0-40.png, id=541, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-40.png, id=545, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-40.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-40.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-40.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-40.png> <a0,fr40>
-<gollum/727f4870d47c42dbfe564b92f35209e0-41.png, id=550, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-41.png, id=554, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-41.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-41.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-41.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-41.png> <a0,fr41>
-<gollum/727f4870d47c42dbfe564b92f35209e0-42.png, id=559, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-42.png, id=563, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-42.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-42.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-42.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-42.png> <a0,fr42>
-<gollum/727f4870d47c42dbfe564b92f35209e0-43.png, id=568, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-43.png, id=572, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-43.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-43.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-43.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-43.png> <a0,fr43>
-<gollum/727f4870d47c42dbfe564b92f35209e0-44.png, id=577, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-44.png, id=581, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-44.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-44.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-44.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-44.png>
 <a0,fr44>
-<gollum/727f4870d47c42dbfe564b92f35209e0-45.png, id=586, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-45.png, id=590, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-45.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-45.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-45.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-45.png> <a0,fr45>
-<gollum/727f4870d47c42dbfe564b92f35209e0-46.png, id=595, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-46.png, id=599, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-46.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-46.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-46.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-46.png> <a0,fr46>
-<gollum/727f4870d47c42dbfe564b92f35209e0-47.png, id=604, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-47.png, id=608, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-47.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-47.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-47.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-47.png> <a0,fr47>
-<gollum/727f4870d47c42dbfe564b92f35209e0-48.png, id=613, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-48.png, id=617, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-48.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-48.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-48.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-48.png> <a0,fr48>
-<gollum/727f4870d47c42dbfe564b92f35209e0-49.png, id=622, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-49.png, id=626, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-49.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-49.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-49.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-49.png> <a0,fr49>
-<gollum/727f4870d47c42dbfe564b92f35209e0-50.png, id=631, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-50.png, id=635, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-50.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-50.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-50.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-50.png> <a0,fr50>
-<gollum/727f4870d47c42dbfe564b92f35209e0-51.png, id=640, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-51.png, id=644, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-51.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-51.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-51.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-51.png> <a0,fr51>
-<gollum/727f4870d47c42dbfe564b92f35209e0-52.png, id=649, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-52.png, id=653, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-52.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-52.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-52.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-52.png> <a0,fr52>
-<gollum/727f4870d47c42dbfe564b92f35209e0-53.png, id=658, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-53.png, id=662, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-53.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-53.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-53.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-53.png>
 <a0,fr53>
-<gollum/727f4870d47c42dbfe564b92f35209e0-54.png, id=667, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-54.png, id=671, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-54.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-54.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-54.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-54.png> <a0,fr54>
-<gollum/727f4870d47c42dbfe564b92f35209e0-55.png, id=676, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-55.png, id=680, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-55.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-55.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-55.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-55.png> <a0,fr55>
-<gollum/727f4870d47c42dbfe564b92f35209e0-56.png, id=685, 301.125pt x 130.4875pt
+<gollum/727f4870d47c42dbfe564b92f35209e0-56.png, id=689, 301.125pt x 130.4875pt
 >
 File: gollum/727f4870d47c42dbfe564b92f35209e0-56.png Graphic file (type png)
 <use gollum/727f4870d47c42dbfe564b92f35209e0-56.png>
 Package pdftex.def Info: gollum/727f4870d47c42dbfe564b92f35209e0-56.png  used o
-n input line 631.
+n input line 633.
 (pdftex.def)             Requested size: 301.12425pt x 130.48717pt.
  <./gollum/727f4870d47c42dbfe564b92f35209e0-56.png> <a0,fr56> [18
 
 ] (./example.bbl) [19
 
  </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [20
+
+
+] [21
 
 
 ]
@@ -1818,23 +1820,19 @@ n input line 631.
 \tf@snm=\write8
 \openout8 = `example.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 642.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 642.
  (./example.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 640.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 642.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 642.
 Package rerunfilecheck Info: File `example.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 27939 strings out of 492982
- 545224 string characters out of 6134896
- 606142 words of memory out of 5000000
- 30853 multiletter control sequences out of 15000+600000
+ 27948 strings out of 492982
+ 545441 string characters out of 6134896
+ 610259 words of memory out of 5000000
+ 30858 multiletter control sequences out of 15000+600000
  563430 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,63p,10420b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1857,10 +1855,10 @@ blic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
 helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
 r8a.pfb>
-Output written on example.pdf (20 pages, 3057555 bytes).
+Output written on example.pdf (21 pages, 3060377 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 447 compressed objects within 5 object streams
- 49 named destinations out of 1000 (max. 500000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 53 named destinations out of 1000 (max. 500000)
  1416 words of extra memory for PDF output out of 10000 (max. 10000000)
 
